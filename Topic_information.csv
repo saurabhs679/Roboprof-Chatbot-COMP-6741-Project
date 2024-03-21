@@ -1,0 +1,8 @@
+﻿Course,Lecture name,Topic name,Provenance information,Dbpedia/Wikidata link
+COMP 6741,Intelligent Systems Introduction,Knowledge graphs,Course outline,https://dbpedia.org/resource/Knowledge_graph
+COMP 6741,Intelligent Systems Introduction,Text mining,Course outline,https://www.wikidata.org/wiki/Q676880
+COMP 6741,Knowledge Graphs,The Resource Description Framework (RDF),Course outline,https://dbpedia.org/page/Resource_Description_Framework
+COMP 6741,Recommender Systems,Content-based Recommendations,Course outline,https://dbpedia.org/page/Recommender_system
+COMP 6481,Algorithm analysis,Algorithm efficiency,Course outline,https://dbpedia.org/page/Category:Algorithms
+COMP 6481,Hashmap,Hash table,Course outline,https://dbpedia.org/page/Hash_table
+COMP 6481,Exceptions,Run Time Errors,Course outline,https://www.wikidata.org/wiki/Q15825362
