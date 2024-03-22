@@ -154,7 +154,7 @@ Readings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)""" 
 <http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> a ex:Lecture ;
     ex:Content """Slides: slides03.pdf
 Worksheets: worksheet03.pdf
-Readings: • [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)""" ;
+Readings: [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)""" ;
     ex:lectureLink <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> ;
     ex:lectureName "Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)" ;
     ex:lectureNumber "3" ;
