@@ -1,0 +1,318 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Course a rdfs:Class ;
+    rdfs:label "Course" .
+
+ex:Lecture a rdfs:Class ;
+    rdfs:label "Lecture" .
+
+ex:Student a rdfs:Class ;
+    rdfs:label "Student" ;
+    rdfs:subClassOf ex:Person .
+
+ex:Topic a rdfs:Class ;
+    rdfs:label "Topic" .
+
+ex:University a rdfs:Class ;
+    rdfs:label "University" .
+
+ex:40226298 a ex:Student ;
+    ex:IDNumber "40226298" ;
+    ex:competentIn "Hash table" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "saurabhs679@gmail.com" ;
+    ex:firstName "Saurabh " ;
+    ex:grade "B" ;
+    ex:lastName "Sharma" .
+
+ex:40233434 a ex:Student ;
+    ex:IDNumber "40233434" ;
+    ex:competentIn "Run Time Errors" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "anubhavmahajan852852@gmail.com" ;
+    ex:firstName "Anubhav" ;
+    ex:grade "A" ;
+    ex:lastName "Mahajan" .
+
+ex:6481 a ex:Course ;
+    ex:CourseName "PPS" ;
+    ex:CourseNumber "6481" ;
+    ex:Credits "4" ;
+    ex:Description "Code" ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+
+ex:6741 a ex:Course ;
+    ex:CourseName "Intelligent Systems" ;
+    ex:CourseNumber "6741" ;
+    ex:Credits "4" ;
+    ex:Description "Knowledge representation and reasoning. Uncertainty and conflict resolution . . ." ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+
+ex:Algorithm_Analysis a ex:Lecture ;
+    ex:Content """Slides: aa.pdf
+Worksheets: 
+Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
+    ex:lectureLink <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> ;
+    ex:lectureName "Algorithm Analysis" ;
+    ex:lectureNumber "2" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Algorithm_efficiency a ex:Topic ;
+    ex:TopicName "Algorithm efficiency" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Category:Algorithms> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:Concordia_University a ex:University ;
+    ex:UniversityLink <https://dbpedia.org/page/Concordia_University> ;
+    ex:UniversityName "Concordia University" .
+
+ex:Content-based_Recommendations a ex:Topic ;
+    ex:TopicName "Content-based Recommendations" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Recommender_system> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Recommender_Systems .
+
+ex:CourseName a rdf:Property ;
+    rdfs:label "course name" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:CourseNumber a rdf:Property ;
+    rdfs:label "course number" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Credits a rdf:Property ;
+    rdfs:label "course credits" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Description a rdf:Property ;
+    rdfs:label "course description" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Hash_table a ex:Topic ;
+    ex:TopicName "Hash table" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Hash_table> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:IDNumber a rdf:Property ;
+    rdfs:label "student ID number" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:Introduction a ex:Lecture ;
+    ex:Content """Slides: chap7-Inheritance.pdf
+Worksheets: 
+Readings: """ ;
+    ex:lectureLink <> ;
+    ex:lectureName "Introduction" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Introduction_to_Intelligent_Systems a ex:Lecture ;
+    ex:Content """Slides: slides01.pdf
+Worksheets: worksheet01.pdf
+Readings: Introduction to Artificial Intelligence, https://plato.stanford.edu/entries/artificial-intelligence/, Eliza, https://en.wikipedia.org/wiki/ELIZA""" ;
+    ex:lectureLink <https://dbpedia.org/page/Artificial_intelligence> ;
+    ex:lectureName "Introduction to Intelligent Systems" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Introduction_to_Knowledge_Graphs_\(RDF\) a ex:Lecture ;
+    ex:Content """Slides: slides02.pdf
+Worksheets: worksheet02.pdf
+Readings: [Yu14, Chapters 1, 2] (Introduction, RDF)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/897466408> ;
+    ex:lectureName "Introduction to Knowledge Graphs (RDF)" ;
+    ex:lectureNumber "2" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Knowledge_Base_Queries_\(SPARQL\)_and_Linked_Open_Data_\(LOD\) a ex:Lecture ;
+    ex:Content """Slides: slides04.pdf
+Worksheets: worksheet04.pdf
+Readings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/853679890> ;
+    ex:lectureName "Knowledge Base Queries (SPARQL) and Linked Open Data (LOD)" ;
+    ex:lectureNumber "4" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> a ex:Lecture ;
+    ex:Content """Slides: slides03.pdf
+Worksheets: worksheet03.pdf
+Readings: • [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)""" ;
+    ex:lectureLink <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> ;
+    ex:lectureName "Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)" ;
+    ex:lectureNumber "3" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Knowledge_graphs a ex:Topic ;
+    ex:TopicName "Knowledge graphs" ;
+    ex:dbpediaLink <https://dbpedia.org/resource/Knowledge_graph> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Systems_Introduction .
+
+ex:Outline a rdf:Property ;
+    rdfs:label "course outline" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+<http://example.org/Personalization_&_Recommender_Systems> a ex:Lecture ;
+    ex:Content """Slides: slides05.pdf
+Worksheets: worksheet05.pdf
+Readings:  [Ala09, Chapters 2, 3] (Recommendations), [MRS08, Chapter 8] (Evaluation)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/314121652> ;
+    ex:lectureName "Personalization & Recommender Systems" ;
+    ex:lectureNumber "5" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Recursion a ex:Lecture ;
+    ex:Content """Slides: Recursion.pdf
+Worksheets: 
+Readings: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/""" ;
+    ex:lectureLink <https://www.youtube.com/watch?v=FyHloXKnPWc> ;
+    ex:lectureName "Recursion" ;
+    ex:lectureNumber "3" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Run_Time_Errors a ex:Topic ;
+    ex:TopicName "Run Time Errors" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q15825362> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Exceptions .
+
+ex:Subject a rdf:Property ;
+    rdfs:label "course subject" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Text_mining a ex:Topic ;
+    ex:TopicName "Text mining" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q676880> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Systems_Introduction .
+
+ex:The_Resource_Description_Framework_\(RDF\) a ex:Topic ;
+    ex:TopicName "The Resource Description Framework (RDF)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Resource_Description_Framework> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Knowledge_Graphs .
+
+ex:TopicName a rdf:Property ;
+    rdfs:label "topic name" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:UniversityLink a rdf:Property ;
+    rdfs:label "DBpedia Link" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:URIRef .
+
+ex:UniversityName a rdf:Property ;
+    rdfs:label "university name" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:Literal .
+
+ex:WebpageLink a rdf:Property ;
+    rdfs:label "course webpage" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+ex:competentIn a rdf:Property ;
+    rdfs:label "competent in" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:completedCourse a rdf:Property ;
+    rdfs:label "completed course" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:content a rdf:Property ;
+    rdfs:label "lecture content" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:dbpediaLink a rdf:Property ;
+    rdfs:label "DBpedia link" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:URIRef .
+
+ex:email a rdf:Property ;
+    rdfs:label "email address" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:firstName a rdf:Property ;
+    rdfs:label "first name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:grade a rdf:Property ;
+    rdfs:label "grade" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:lastName a rdf:Property ;
+    rdfs:label "last name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureLink a rdf:Property ;
+    rdfs:label "lecture webpage" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:URIRef .
+
+ex:lectureName a rdf:Property ;
+    rdfs:label "lecture name" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureNumber a rdf:Property ;
+    rdfs:label "lecture number" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectures_in_course a rdf:ObjectProperty ;
+    rdfs:label "Lectures in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Lectures .
+
+ex:provenance a rdf:Property ;
+    rdfs:label "provenance information" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:student_in_course a rdf:ObjectProperty ;
+    rdfs:label "Student in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Student .
+
+ex:topic_in_course a rdf:ObjectProperty ;
+    rdfs:label "Topic in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Topic .
+
+ex:topic_in_lecture a rdf:ObjectProperty ;
+    rdfs:label "Topic in Lecture" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range ex:Topic .
+
