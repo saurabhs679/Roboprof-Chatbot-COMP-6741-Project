@@ -5,5 +5,5 @@ COMP 6741,3,"Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)",slides03.p
 COMP 6741,4,Knowledge Base Queries (SPARQL) and Linked Open Data (LOD),slides04.pdf,worksheet04.pdf,"[Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)",https://concordiauniversity.on.worldcat.org/oclc/853679890
 COMP 6741,5,Personalization & Recommender Systems,slides05.pdf,worksheet05.pdf," [Ala09, Chapters 2, 3] (Recommendations), [MRS08, Chapter 8] (Evaluation)",https://concordiauniversity.on.worldcat.org/oclc/314121652
 COMP 6481,1,Introduction,chap7-Inheritance.pdf,,,
-COMP 6481,2,Algorithm Analysis,aa.pdf,,"Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014",https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/
+COMP 6481,2,Algorithm analysis,aa.pdf,,"Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014",https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/
 COMP 6481,3,Recursion,Recursion.pdf,,https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/,https://www.youtube.com/watch?v=FyHloXKnPWc
