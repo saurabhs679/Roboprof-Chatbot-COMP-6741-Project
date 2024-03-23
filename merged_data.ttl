@@ -38,33 +38,6 @@ ex:40233434 a ex:Student ;
     ex:grade "A" ;
     ex:lastName "Mahajan" .
 
-ex:6481 a ex:Course ;
-    ex:CourseName "PPS" ;
-    ex:CourseNumber "6481" ;
-    ex:Credits "4" ;
-    ex:Description "Code" ;
-    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
-    ex:Subject "COMP" ;
-    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
-
-ex:6741 a ex:Course ;
-    ex:CourseName "Intelligent Systems" ;
-    ex:CourseNumber "6741" ;
-    ex:Credits "4" ;
-    ex:Description "Knowledge representation and reasoning. Uncertainty and conflict resolution . . ." ;
-    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
-    ex:Subject "COMP" ;
-    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
-
-ex:Algorithm_Analysis a ex:Lecture ;
-    ex:Content """Slides: aa.pdf
-Worksheets: 
-Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
-    ex:lectureLink <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> ;
-    ex:lectureName "Algorithm Analysis" ;
-    ex:lectureNumber "2" ;
-    ex:lectures_in_course ex:COMP_6481 .
-
 ex:Algorithm_efficiency a ex:Topic ;
     ex:TopicName "Algorithm efficiency" ;
     ex:dbpediaLink <https://dbpedia.org/page/Category:Algorithms> ;
@@ -315,4 +288,31 @@ ex:topic_in_lecture a rdf:ObjectProperty ;
     rdfs:label "Topic in Lecture" ;
     rdfs:domain ex:Lecture ;
     rdfs:range ex:Topic .
+
+ex:Algorithm_analysis a ex:Lecture ;
+    ex:Content """Slides: aa.pdf
+Worksheets: 
+Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
+    ex:lectureLink <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> ;
+    ex:lectureName "Algorithm analysis" ;
+    ex:lectureNumber "2" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:COMP_6481 a ex:Course ;
+    ex:CourseName "PPS" ;
+    ex:CourseNumber "6481" ;
+    ex:Credits "4" ;
+    ex:Description "Code" ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+
+ex:COMP_6741 a ex:Course ;
+    ex:CourseName "Intelligent Systems" ;
+    ex:CourseNumber "6741" ;
+    ex:Credits "4" ;
+    ex:Description "Knowledge representation and reasoning. Uncertainty and conflict resolution . . ." ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
 
