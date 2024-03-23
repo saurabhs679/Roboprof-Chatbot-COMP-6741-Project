@@ -1,0 +1,155 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Course a rdfs:Class ;
+    rdfs:label "Course" .
+
+ex:Lecture a rdfs:Class ;
+    rdfs:label "Lecture" .
+
+ex:Student a rdfs:Class ;
+    rdfs:label "Student" ;
+    rdfs:subClassOf ex:Person .
+
+ex:Topic a rdfs:Class ;
+    rdfs:label "Topic" .
+
+ex:University a rdfs:Class ;
+    rdfs:label "University" .
+
+ex:CourseName a rdf:Property ;
+    rdfs:label "course name" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:CourseNumber a rdf:Property ;
+    rdfs:label "course number" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Credits a rdf:Property ;
+    rdfs:label "course credits" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Description a rdf:Property ;
+    rdfs:label "course description" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:IDNumber a rdf:Property ;
+    rdfs:label "student ID number" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:Outline a rdf:Property ;
+    rdfs:label "course outline" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+ex:Subject a rdf:Property ;
+    rdfs:label "course subject" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:TopicName a rdf:Property ;
+    rdfs:label "topic name" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:UniversityLink a rdf:Property ;
+    rdfs:label "DBpedia Link" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:URIRef .
+
+ex:UniversityName a rdf:Property ;
+    rdfs:label "university name" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:Literal .
+
+ex:WebpageLink a rdf:Property ;
+    rdfs:label "course webpage" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+ex:competentIn a rdf:Property ;
+    rdfs:label "competent in" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:completedCourse a rdf:Property ;
+    rdfs:label "completed course" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:content a rdf:Property ;
+    rdfs:label "lecture content" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:dbpediaLink a rdf:Property ;
+    rdfs:label "DBpedia link" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:URIRef .
+
+ex:email a rdf:Property ;
+    rdfs:label "email address" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:firstName a rdf:Property ;
+    rdfs:label "first name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:grade a rdf:Property ;
+    rdfs:label "grade" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:lastName a rdf:Property ;
+    rdfs:label "last name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureLink a rdf:Property ;
+    rdfs:label "lecture webpage" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:URIRef .
+
+ex:lectureName a rdf:Property ;
+    rdfs:label "lecture name" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureNumber a rdf:Property ;
+    rdfs:label "lecture number" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectures_in_course a rdf:ObjectProperty ;
+    rdfs:label "Lectures in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Lectures .
+
+ex:provenance a rdf:Property ;
+    rdfs:label "provenance information" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:student_in_course a rdf:ObjectProperty ;
+    rdfs:label "Student in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Student .
+
+ex:topic_in_course a rdf:ObjectProperty ;
+    rdfs:label "Topic in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Topic .
+
+ex:topic_in_lecture a rdf:ObjectProperty ;
+    rdfs:label "Topic in Lecture" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range ex:Topic .
+

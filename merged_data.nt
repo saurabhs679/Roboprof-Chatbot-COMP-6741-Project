@@ -1,0 +1,246 @@
+<http://example.org/completedCourse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/grade> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/Introduction> <http://example.org/lectures_in_course> <http://example.org/COMP_6481> .
+<http://example.org/Text_mining> <http://example.org/dbpediaLink> <https://www.wikidata.org/wiki/Q676880> .
+<http://example.org/CourseName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Text_mining> <http://example.org/provenance> "Course outline" .
+<http://example.org/grade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/COMP_6741> <http://example.org/CourseName> "Intelligent Systems" .
+<http://example.org/lectures_in_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Algorithm_efficiency> <http://example.org/topic_in_lecture> <http://example.org/Algorithm_analysis> .
+<http://example.org/email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/grade> <http://www.w3.org/2000/01/rdf-schema#label> "grade" .
+<http://example.org/COMP_6481> <http://example.org/WebpageLink> <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://example.org/lectureLink> <https://dbpedia.org/page/Artificial_intelligence> .
+<http://example.org/Subject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Content-based_Recommendations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/Concordia_University> <http://example.org/UniversityLink> <https://dbpedia.org/page/Concordia_University> .
+<http://example.org/Recursion> <http://example.org/lectureName> "Recursion" .
+<http://example.org/Recursion> <http://example.org/lectureLink> <https://www.youtube.com/watch?v=FyHloXKnPWc> .
+<http://example.org/completedCourse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/Text_mining> <http://example.org/topic_in_lecture> <http://example.org/Intelligent_Systems_Introduction> .
+<http://example.org/completedCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://example.org/lectureName> "Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)" .
+<http://example.org/dbpediaLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#URIRef> .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/topic_in_lecture> <http://www.w3.org/2000/01/rdf-schema#label> "Topic in Lecture" .
+<http://example.org/Knowledge_graphs> <http://example.org/provenance> "Course outline" .
+<http://example.org/Hash_table> <http://example.org/dbpediaLink> <https://dbpedia.org/page/Hash_table> .
+<http://example.org/CourseName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Text_mining> <http://example.org/TopicName> "Text mining" .
+<http://example.org/lectureLink> <http://www.w3.org/2000/01/rdf-schema#label> "lecture webpage" .
+<http://example.org/Concordia_University> <http://example.org/UniversityName> "Concordia University" .
+<http://example.org/CourseName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Algorithm_analysis> <http://example.org/lectureName> "Algorithm analysis" .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://example.org/Content> "Slides: slides03.pdf\r\nWorksheets: worksheet03.pdf\r\nReadings: [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)" .
+<http://example.org/IDNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://example.org/TopicName> "The Resource Description Framework (RDF)" .
+<http://example.org/firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/student_in_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ObjectProperty> .
+<http://example.org/content> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/UniversityName> <http://www.w3.org/2000/01/rdf-schema#label> "university name" .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Credits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/COMP_6481> <http://example.org/Outline> <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> .
+<http://example.org/CourseNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Knowledge_graphs> <http://example.org/topic_in_course> <http://example.org/COMP_6741> .
+<http://example.org/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/topic_in_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ObjectProperty> .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://example.org/provenance> "Course outline" .
+<http://example.org/provenance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topic> .
+<http://example.org/Algorithm_analysis> <http://example.org/lectureNumber> "2" .
+<http://example.org/lastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Hash_table> <http://example.org/topic_in_course> <http://example.org/COMP_6481> .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/40233434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Student> .
+<http://example.org/COMP_6741> <http://example.org/Description> "Knowledge representation and reasoning. Uncertainty and conflict resolution . . ." .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/TopicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/40233434> <http://example.org/completedCourse> "COMP 6481" .
+<http://example.org/firstName> <http://www.w3.org/2000/01/rdf-schema#label> "first name" .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://example.org/topic_in_lecture> <http://example.org/Knowledge_Graphs> .
+<http://example.org/dbpediaLink> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia link" .
+<http://example.org/completedCourse> <http://www.w3.org/2000/01/rdf-schema#label> "completed course" .
+<http://example.org/Introduction> <http://example.org/lectureNumber> "1" .
+<http://example.org/Run_Time_Errors> <http://example.org/topic_in_course> <http://example.org/COMP_6481> .
+<http://example.org/Run_Time_Errors> <http://example.org/dbpediaLink> <https://www.wikidata.org/wiki/Q15825362> .
+<http://example.org/lastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Algorithm_efficiency> <http://example.org/TopicName> "Algorithm efficiency" .
+<http://example.org/lectureNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Recursion> <http://example.org/Content> "Slides: Recursion.pdf\r\nWorksheets: \r\nReadings: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/" .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student" .
+<http://example.org/UniversityName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://example.org/lectureName> "Knowledge Base Queries (SPARQL) and Linked Open Data (LOD)" .
+<http://example.org/COMP_6741> <http://example.org/Credits> "4" .
+<http://example.org/40226298> <http://example.org/course> <http://example.org/COMP_6481> .
+<http://example.org/CourseNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Subject> <http://www.w3.org/2000/01/rdf-schema#label> "course subject" .
+<http://example.org/Outline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#URIRef> .
+<http://example.org/content> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/Recursion> <http://example.org/lectureNumber> "3" .
+<http://example.org/provenance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Content-based_Recommendations> <http://example.org/provenance> "Course outline" .
+<http://example.org/Algorithm_analysis> <http://example.org/Content> "Slides: aa.pdf\r\nWorksheets: \r\nReadings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014" .
+<http://example.org/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/Outline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Recursion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/COMP_6741> <http://example.org/Subject> "COMP" .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://example.org/Content> "Slides: slides04.pdf\r\nWorksheets: worksheet04.pdf\r\nReadings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)" .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://example.org/lectureLink> <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> .
+<http://example.org/Credits> <http://www.w3.org/2000/01/rdf-schema#label> "course credits" .
+<http://example.org/Algorithm_efficiency> <http://example.org/provenance> "Course outline" .
+<http://example.org/CourseNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/40233434> <http://example.org/lastName> "Mahajan" .
+<http://example.org/Hash_table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://example.org/lectureName> "Introduction to Knowledge Graphs (RDF)" .
+<http://example.org/lastName> <http://www.w3.org/2000/01/rdf-schema#label> "last name" .
+<http://example.org/COMP_6481> <http://example.org/Credits> "4" .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/provenance> <http://www.w3.org/2000/01/rdf-schema#label> "provenance information" .
+<http://example.org/Algorithm_analysis> <http://example.org/lectureLink> <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://example.org/lectures_in_course> <http://example.org/COMP_6741> .
+<http://example.org/COMP_6741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Course> .
+<http://example.org/Outline> <http://www.w3.org/2000/01/rdf-schema#label> "course outline" .
+<http://example.org/Run_Time_Errors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/Introduction> <http://example.org/Content> "Slides: chap7-Inheritance.pdf\r\nWorksheets: \r\nReadings: " .
+<http://example.org/Algorithm_efficiency> <http://example.org/topic_in_course> <http://example.org/COMP_6481> .
+<http://example.org/Outline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/lectureName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://example.org/lectureLink> <https://concordiauniversity.on.worldcat.org/oclc/853679890> .
+<http://example.org/40226298> <http://example.org/IDNumber> "40226298" .
+<http://example.org/student_in_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Recursion> <http://example.org/lectures_in_course> <http://example.org/COMP_6481> .
+<http://example.org/grade> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Content-based_Recommendations> <http://example.org/dbpediaLink> <https://dbpedia.org/page/Recommender_system> .
+<http://example.org/student_in_course> <http://www.w3.org/2000/01/rdf-schema#label> "Student in Course" .
+<http://example.org/topic_in_course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/topic_in_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Topic> .
+<http://example.org/WebpageLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Introduction> <http://example.org/lectureName> "Introduction" .
+<http://example.org/Text_mining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/UniversityLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/lectureLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/lectures_in_course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ObjectProperty> .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/WebpageLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://example.org/topic_in_course> <http://example.org/COMP_6741> .
+<http://example.org/40226298> <http://example.org/email> "saurabhs679@gmail.com" .
+<http://example.org/Credits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/IDNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/competentIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> <http://example.org/lectureNumber> "3" .
+<http://example.org/Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/40233434> <http://example.org/firstName> "Anubhav" .
+<http://example.org/lectureLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/topic_in_course> <http://www.w3.org/2000/01/rdf-schema#label> "Topic in Course" .
+<http://example.org/topic_in_lecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
+<http://example.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email address" .
+<http://example.org/Credits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/40226298> <http://example.org/firstName> "Saurabh " .
+<http://example.org/Knowledge_graphs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/40226298> <http://example.org/lastName> "Sharma" .
+<http://example.org/Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .
+<http://example.org/40226298> <http://example.org/completedCourse> "COMP 6481" .
+<http://example.org/Knowledge_graphs> <http://example.org/topic_in_lecture> <http://example.org/Intelligent_Systems_Introduction> .
+<http://example.org/UniversityLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/University> .
+<http://example.org/IDNumber> <http://www.w3.org/2000/01/rdf-schema#label> "student ID number" .
+<http://example.org/Knowledge_graphs> <http://example.org/dbpediaLink> <https://dbpedia.org/resource/Knowledge_graph> .
+<http://example.org/COMP_6741> <http://example.org/Outline> <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://example.org/Content> "Slides: slides02.pdf\r\nWorksheets: worksheet02.pdf\r\nReadings: [Yu14, Chapters 1, 2] (Introduction, RDF)" .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://example.org/lectures_in_course> <http://example.org/COMP_6741> .
+<http://example.org/Introduction> <http://example.org/lectureLink> <file:///C:/Users/anubh/merged_data.ttl> .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://example.org/lectureName> "Introduction to Intelligent Systems" .
+<http://example.org/COMP_6481> <http://example.org/Subject> "COMP" .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://example.org/lectures_in_course> <http://example.org/COMP_6741> .
+<http://example.org/dbpediaLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/UniversityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/CourseName> <http://www.w3.org/2000/01/rdf-schema#label> "course name" .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/content> <http://www.w3.org/2000/01/rdf-schema#label> "lecture content" .
+<http://example.org/Text_mining> <http://example.org/topic_in_course> <http://example.org/COMP_6741> .
+<http://example.org/Lecture> <http://www.w3.org/2000/01/rdf-schema#label> "Lecture" .
+<http://example.org/Run_Time_Errors> <http://example.org/provenance> "Course outline" .
+<http://example.org/UniversityLink> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Link" .
+<http://example.org/Algorithm_analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/Hash_table> <http://example.org/topic_in_lecture> <http://example.org/Hashmap> .
+<http://example.org/lectureName> <http://www.w3.org/2000/01/rdf-schema#label> "lecture name" .
+<http://example.org/Introduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://example.org/lectureNumber> "1" .
+<http://example.org/CourseNumber> <http://www.w3.org/2000/01/rdf-schema#label> "course number" .
+<http://example.org/topic_in_lecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#ObjectProperty> .
+<http://example.org/Personalization_&_Recommender_Systems> <http://example.org/Content> "Slides: slides05.pdf\r\nWorksheets: worksheet05.pdf\r\nReadings:  [Ala09, Chapters 2, 3] (Recommendations), [MRS08, Chapter 8] (Evaluation)" .
+<http://example.org/Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/COMP_6741> <http://example.org/WebpageLink> <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+<http://example.org/40233434> <http://example.org/course> <http://example.org/COMP_6481> .
+<http://example.org/Lecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/40233434> <http://example.org/email> "anubhavmahajan852852@gmail.com" .
+<http://example.org/COMP_6481> <http://example.org/CourseName> "PPS" .
+<http://example.org/40226298> <http://example.org/grade> "B" .
+<http://example.org/Run_Time_Errors> <http://example.org/TopicName> "Run Time Errors" .
+<http://example.org/lastName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/lectures_in_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Lectures> .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topic> .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://example.org/lectureNumber> "2" .
+<http://example.org/Description> <http://www.w3.org/2000/01/rdf-schema#label> "course description" .
+<http://example.org/40233434> <http://example.org/grade> "A" .
+<http://example.org/Algorithm_efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
+<http://example.org/Algorithm_analysis> <http://example.org/lectures_in_course> <http://example.org/COMP_6481> .
+<http://example.org/Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/Person> .
+<http://example.org/40233434> <http://example.org/IDNumber> "40233434" .
+<http://example.org/40226298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Student> .
+<http://example.org/Hash_table> <http://example.org/TopicName> "Hash table" .
+<http://example.org/COMP_6741> <http://example.org/CourseNumber> "6741" .
+<http://example.org/COMP_6481> <http://example.org/CourseNumber> "6481" .
+<http://example.org/Algorithm_efficiency> <http://example.org/dbpediaLink> <https://dbpedia.org/page/Category:Algorithms> .
+<http://example.org/firstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Content-based_Recommendations> <http://example.org/TopicName> "Content-based Recommendations" .
+<http://example.org/Personalization_&_Recommender_Systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course" .
+<http://example.org/Description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/Personalization_&_Recommender_Systems> <http://example.org/lectureName> "Personalization & Recommender Systems" .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Lecture> .
+<http://example.org/competentIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/lectures_in_course> <http://www.w3.org/2000/01/rdf-schema#label> "Lectures in Course" .
+<http://example.org/IDNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/competentIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Personalization_&_Recommender_Systems> <http://example.org/lectureLink> <https://concordiauniversity.on.worldcat.org/oclc/314121652> .
+<http://example.org/WebpageLink> <http://www.w3.org/2000/01/rdf-schema#label> "course webpage" .
+<http://example.org/The_Resource_Description_Framework_(RDF)> <http://example.org/dbpediaLink> <https://dbpedia.org/page/Resource_Description_Framework> .
+<http://example.org/firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Run_Time_Errors> <http://example.org/topic_in_lecture> <http://example.org/Exceptions> .
+<http://example.org/lectureNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lecture number" .
+<http://example.org/Hash_table> <http://example.org/provenance> "Course outline" .
+<http://example.org/WebpageLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#URIRef> .
+<http://example.org/Content-based_Recommendations> <http://example.org/topic_in_course> <http://example.org/COMP_6741> .
+<http://example.org/COMP_6481> <http://example.org/Description> "Code" .
+<http://example.org/UniversityLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#URIRef> .
+<http://example.org/lectureLink> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#URIRef> .
+<http://example.org/Knowledge_Base_Queries_(SPARQL)_and_Linked_Open_Data_(LOD)> <http://example.org/lectureNumber> "4" .
+<http://example.org/student_in_course> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Student> .
+<http://example.org/University> <http://www.w3.org/2000/01/rdf-schema#label> "University" .
+<http://example.org/TopicName> <http://www.w3.org/2000/01/rdf-schema#label> "topic name" .
+<http://example.org/Content-based_Recommendations> <http://example.org/topic_in_lecture> <http://example.org/Recommender_Systems> .
+<http://example.org/provenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/Personalization_&_Recommender_Systems> <http://example.org/lectures_in_course> <http://example.org/COMP_6741> .
+<http://example.org/Knowledge_graphs> <http://example.org/TopicName> "Knowledge graphs" .
+<http://example.org/Concordia_University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/University> .
+<http://example.org/dbpediaLink> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Topic> .
+<http://example.org/Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/40226298> <http://example.org/competentIn> "Hash table" .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://example.org/lectures_in_course> <http://example.org/COMP_6741> .
+<http://example.org/Introduction_to_Intelligent_Systems> <http://example.org/Content> "Slides: slides01.pdf\r\nWorksheets: worksheet01.pdf\r\nReadings: Introduction to Artificial Intelligence, https://plato.stanford.edu/entries/artificial-intelligence/, Eliza, https://en.wikipedia.org/wiki/ELIZA" .
+<http://example.org/UniversityName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/University> .
+<http://example.org/COMP_6481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Course> .
+<http://example.org/40233434> <http://example.org/competentIn> "Run Time Errors" .
+<http://example.org/Personalization_&_Recommender_Systems> <http://example.org/lectureNumber> "5" .
+<http://example.org/Subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://example.org/competentIn> <http://www.w3.org/2000/01/rdf-schema#label> "competent in" .
+<http://example.org/topic_in_lecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Topic> .
+<http://example.org/Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
+<http://example.org/Introduction_to_Knowledge_Graphs_(RDF)> <http://example.org/lectureLink> <https://concordiauniversity.on.worldcat.org/oclc/897466408> .
