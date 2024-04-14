@@ -142,7 +142,7 @@
 <http://example.org/topic_in_lecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Lecture> .
 <http://example.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email address" .
 <http://example.org/Credits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Course> .
-<http://example.org/40226298> <http://example.org/firstName> "Saurabh " .
+<http://example.org/40226298> <http://example.org/firstName> "Saurabh" .
 <http://example.org/Knowledge_graphs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Topic> .
 <http://example.org/40226298> <http://example.org/lastName> "Sharma" .
 <http://example.org/Topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic" .

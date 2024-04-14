@@ -24,7 +24,7 @@ ex:40226298 a ex:Student ;
     ex:completedCourse "COMP 6481" ;
     ex:course ex:COMP_6481 ;
     ex:email "saurabhs679@gmail.com" ;
-    ex:firstName "Saurabh " ;
+    ex:firstName "Saurabh" ;
     ex:grade "B" ;
     ex:lastName "Sharma" .
 
