@@ -1,0 +1,190 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: give_time
+    examples: |
+      - what is the time?
+      - tell me the time?
+      - got the time?
+      - can you tell me what time it is
+
+  - intent: about_person
+    examples: |
+      - Who is he?
+      - Who is [Joe](person) ?
+      - Who is [Kate](person)?
+      - Who is [Harry](person)
+      - Tell me about him
+      - Tell me about
+      - Tell me about [Peter](person)
+      - Tell me about [Joe](person)
+      - Can you tell me about him?
+      - Can you tell me about [Jane](person)?
+      - Can you tell me about [Peter](person) ?
+      - Can you tell me about [Jonathan](person) ?
+      - Do you know [Alice](person) ?
+      - Tell me about [Jack](person) ?
+
+  - intent: ListCoursesIntent
+    examples: |
+      - List all courses offered by the university
+      - What courses does the university offer?
+      - Show me the list of courses
+
+  - intent: CoursesForTopicIntent
+    examples: |
+      - In which courses is [Hash table](topic) discussed?
+      - What classes cover [Algorithm efficiency](topic)?
+
+  - intent: TopicsCoveredInCourseIntent
+    examples: |
+      - Which topic are covered in [PPS](course) during [2](lecture_number)?
+
+  - intent: ListCousesInSubject
+    examples: |
+      - List all courses offered by [concordia](university) within the [COMP](subject)?
+      - What are the [COMP](subject) courses offered by [concordia](university)?
+      - Show me all [SOEN](subject) courses at [concordia](university)
+      - Can you list the courses available in [subject](subject) at [concordia](university)?
+
+  - intent: ListMaterialByTopicAndCourse
+    examples: |
+      - What materials are recommended for [Algorithm efficiency](topic) in [PPS](course)?
+      - Can you suggest materials for [Algorithm efficiency](topic) in [PPS](course)?
+      - What readings should I focus on for [Algorithm efficiency](topic) in [PPS](course)?
+
+  - intent: ListCourseCredits
+    examples: |
+      - How many credits is [6741](course_number) worth?
+      - What is the credit value of [6741](course_number)?
+      - Credit value of [6481](course_number)
+
+  - intent: ListAdditionalResources
+    examples: |
+      - For [number](course_number), what additional resources are available?
+      - Show me resources for [6741](course_number) 
+
+  - intent: ListContentDetails
+    examples: |
+      - Detail the content available for lecture [3](lecture_number) in course [6481](course_number)
+      - Provide details of lecture [3](lecture_number) content in course [6481](course_number)
+      - Provide details of lecture [2](lecture_number) content in course [6741](course_number)
+
+  - intent: ListReadingMaterials
+    examples: |
+      - What reading materials are recommended for studying [Hash table](topic) in [PPS](course)?
+      - Can you suggest reading materials for [Algorithm efficiency](topic) in [PPS](course)?
+      - Reading materials for [Binary Trees](topic) in [PPS](course)
+
+  - intent: ListCompetencies
+    examples: |
+      - What competencies does a student gain after completing [COMP 6481](completed_course)?
+      - List the topics a student learns after completing [COMP 6481](completed_course).
+      - After completing [COMP 6741](completed_course), what skills does a student acquire?
+
+  - intent: ListGrades
+    examples: |
+      - What grades did [Anubhav Mahajan](student) achieve in [COMP 6481](completed_course)?
+      - Show me the grades of [Saurabh Sharma](student) in [COMP 6481](completed_course)
+      - List the grades for [Anubhav Mahajan](student) in [COMP 6481](completed_course)
+
+  - intent: ListStudentsByCompletedCourse
+    examples: |
+      - Which students have completed course [COMP 6481](completed_course)?
+      - List students who completed [COMP 6481](completed_course)
+      - Show students who finished [COMP 6481](completed_course)
+
+  - intent: ListStudentTranscript
+    examples: |
+      - Print a transcript for a [Anubhav Mahajan](student), listing all the course taken with their grades
+      - Show me the transcript for a [Saurabh Sharma](student) including all completed courses and grades
+      - Can you provide the transcript for a [Saurabh Sharma](student)?

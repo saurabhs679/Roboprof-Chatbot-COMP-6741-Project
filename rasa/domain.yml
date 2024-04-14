@@ -1,0 +1,152 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - give_time
+  - about_person
+  - ListCoursesIntent
+  - CoursesForTopicIntent
+  - TopicsCoveredInCourseIntent
+  - ListCousesInSubject
+  - ListMaterialByTopicAndCourse
+  - ListCourseCredits
+  - ListAdditionalResources
+  - ListContentDetails
+  - ListReadingMaterials
+  - ListCompetencies
+  - ListGrades
+  - ListStudentsByCompletedCourse
+  - ListStudentTranscript
+
+actions:
+  - action_show_time
+  - action_person_info
+  - action_list_courses
+  - action_courses_for_topic
+  - action_topics_covered_in_course
+  - action_list_courses_in_subject
+  - action_list_materials
+  - action_list_course_credits
+  - action_list_additional_resources
+  - action_list_content_details
+  - action_reading_materials
+  - action_list_competencies
+  - action_list_grades
+  - action_list_students_by_completed_course
+  - action_list_students_transcript
+  
+entities:
+  - person
+  - course
+  - lecture_number
+  - topic
+  - subject
+  - university
+  - course_number
+  - completed_course
+  - student
+
+slots:
+  person:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: person
+
+  course:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: course
+
+  topic:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: topic
+
+  lecture_number:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: lecture_number
+
+  subject:
+    type: categorical
+    values:
+      - COMP
+      - SOEN
+    mappings:
+      - type: custom
+
+  university:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: university
+
+  course_number:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: course_number
+
+  completed_course:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: completed_course
+
+  student:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: student
+  
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_ask_course_name:
+    - text: "Which course are you interested in?"
+
+  utter_ask_lecture_number:
+    - text: "Which lecture number are you referring to?"
+
+  utter_ask_topic:
+    - text: "Which topic are you asking about?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
