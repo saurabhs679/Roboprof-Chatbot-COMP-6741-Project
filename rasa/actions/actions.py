@@ -700,3 +700,44 @@ class ActionListTopicByCourseEvent(Action):
         # Utter the formatted message
         dispatcher.utter_message(text=response_message)
         return []
+    
+class ActionListTopicContent(Action):
+    def name(self) -> Text:
+        return "action_list_topic_content"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # Extract the topic from user input
+        topic = tracker.get_slot("topic")
+
+        # Construct SPARQL query
+        query = f"""
+            PREFIX ex: <http://example.org/>
+
+            SELECT DISTINCT ?course ?provenance ?lecture
+            WHERE {{
+                ?topic a ex:Topic ;
+                       ex:TopicName "{topic}" ;
+                       ex:topic_in_course ?course ;
+                       ex:provenance ?provenance ;
+                       ex:topic_in_lecture ?lecture .
+            }}
+            """
+        sparql_endpoint = "http://localhost:3030/roboprof/query"
+
+        # Execute query
+        response = requests.get(sparql_endpoint, params={'query': query})
+        results = response.json()
+
+        # Format response into a string message
+        response_message = f"Course events covering {topic}:\n"
+        for result in results["results"]["bindings"]:
+            course = result['course']['value']
+            provenance = result['provenance']['value']
+            lecture = result['lecture']['value']
+            response_message += f"Course: {course}, Provenance: {provenance}, Lecture: {lecture}\n"
+
+        # Utter the formatted message
+        dispatcher.utter_message(text=response_message)
+        return []

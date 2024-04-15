@@ -25,6 +25,7 @@ intents:
   - ListStudentTranscript
   - ShowDescription
   - ListTopicByCourseEvent
+  - ListTopicContent
 
 actions:
   - action_show_time
@@ -44,6 +45,7 @@ actions:
   - action_list_students_transcript
   - action_show_description
   - action_list_topic_by_course_event
+  - action_list_topic_content
 
 entities:
   - person

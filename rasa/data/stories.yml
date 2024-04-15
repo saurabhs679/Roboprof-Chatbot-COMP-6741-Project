@@ -116,3 +116,8 @@ stories:
     steps:
       - intent: ListTopicByCourseEvent
       - action: action_list_topic_by_course_event
+
+  - story: List topic content
+    steps:
+      - intent: ListTopicContent
+      - action: action_list_topic_content

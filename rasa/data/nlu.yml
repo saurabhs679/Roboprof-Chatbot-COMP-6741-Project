@@ -203,4 +203,14 @@ nlu:
       - Topics covered in [COMP 6741](course)
       - What is covered in [COMP 6741](course) tutorial #2?
       - Explain [COMP 6741](course) lecture 3
+
+  - intent: ListTopicContent
+    examples: |
+      - Which course events cover [Hash table](topic)?
+      - List all courses covering [Knowledge graphs](topic)
+      - Show courses with [Text mining](topic) topics
+      - Show courses with [Content-based Recommendations](topic) topics
+
+
+
       
