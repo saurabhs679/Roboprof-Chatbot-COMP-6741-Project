@@ -106,3 +106,13 @@ stories:
     steps:
       - intent: ListStudentTranscript
       - action: action_list_students_transcript
+
+  - story: Show description
+    steps:
+      - intent: ShowDescription
+      - action: action_show_description
+  
+  - story: List topics by course event
+    steps:
+      - intent: ListTopicByCourseEvent
+      - action: action_list_topic_by_course_event

@@ -151,7 +151,7 @@ nlu:
   - intent: ListAdditionalResources
     examples: |
       - For [number](course_number), what additional resources are available?
-      - Show me resources for [6741](course_number) 
+      - Show me resources for [6741](course_number)
 
   - intent: ListContentDetails
     examples: |
@@ -188,3 +188,19 @@ nlu:
       - Print a transcript for a [Anubhav Mahajan](student), listing all the course taken with their grades
       - Show me the transcript for a [Saurabh Sharma](student) including all completed courses and grades
       - Can you provide the transcript for a [Saurabh Sharma](student)?
+
+  - intent: ShowDescription
+    examples: |
+      - What is the [Intelligent Systems](course) about?
+      - Tell me about [Intelligent Systems](course)
+      - What can you tell me about [Intelligent Systems](course)?
+
+  - intent: ListTopicByCourseEvent
+    examples: |
+      - Which topics are covered in tutorial #2 of [COMP 6481](course)?
+      - What topics will be discussed in lecture 3 of [COMP 6481](course)?
+      - List topics for [COMP 6481](course)
+      - Topics covered in [COMP 6741](course)
+      - What is covered in [COMP 6741](course) tutorial #2?
+      - Explain [COMP 6741](course) lecture 3
+      

@@ -611,3 +611,92 @@ class ActionListStudentsTranscript(Action):
             dispatcher.utter_message(text="Error: Unable to parse response from SPARQL endpoint.")
 
         return []
+    
+
+class ActionShowDescription(Action):
+    def name(self) -> Text:
+        return "action_show_description"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course = tracker.get_slot("course")
+        if not course:
+            dispatcher.utter_message(template="utter_show_description_error")
+            return []
+
+        # Construct SPARQL query
+        query = f"""
+            PREFIX ex: <http://example.org/>
+            SELECT ?description WHERE {{
+                ?course ex:CourseName "{course}" ;
+                        ex:Description ?description .
+            }}
+            """
+        sparql_endpoint = "http://localhost:3030/roboprof/query"
+
+        # Execute query
+        response = requests.get(sparql_endpoint, params={'query': query})
+        results = response.json()
+
+        # Extract description from results
+        description = ""
+        if "results" in results and "bindings" in results["results"] and results["results"]["bindings"]:
+            description = results["results"]["bindings"][0]["description"]["value"]
+
+        # Utter response
+        dispatcher.utter_message(text=f"The course {course} is about: {description}")
+        return []
+    
+
+class ActionListTopicByCourseEvent(Action):
+    def name(self) -> Text:
+        return "action_list_topic_by_course_event"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # Get course code from slot
+        course_code = tracker.get_slot("course")
+        
+        #Function to format course code by replacing space with underscore.
+        def format_course_code(course_code: str) -> str:
+            if " " in course_code:
+                return course_code.replace(" ", "_")
+            else:
+                return course_code
+
+        formatted_course_code = format_course_code(course_code)
+
+        # Construct SPARQL query
+        query = f"""
+            PREFIX ex: <http://example.org/>
+
+            SELECT DISTINCT ?dbpediaLink ?topicName ?provenance ?topicInLecture
+            WHERE {{
+              ?topic ex:topic_in_course ex:{formatted_course_code} ;
+                     ex:dbpediaLink ?dbpediaLink ;
+                     ex:TopicName ?topicName ;
+                     ex:provenance ?provenance ;
+                     ex:topic_in_lecture ?topicInLecture .
+            }}
+            """
+
+        sparql_endpoint = "http://localhost:3030/roboprof/query"
+
+        # Execute query
+        response = requests.get(sparql_endpoint, params={'query': query})
+        results = response.json()
+
+        # Format response into a string message
+        response_message = ""
+        for result in results["results"]["bindings"]:
+            topic_name = result['topicName']['value']
+            dbpedia_link = result['dbpediaLink']['value']
+            provenance = result['provenance']['value']
+            topic_in_lecture = result['topicInLecture']['value']
+            response_message += f"Topic: {topic_name}\nDBpedia Link: {dbpedia_link}\nProvenance: {provenance}\nLecture Topic URI: {topic_in_lecture}\n\n"
+
+        # Utter the formatted message
+        dispatcher.utter_message(text=response_message)
+        return []

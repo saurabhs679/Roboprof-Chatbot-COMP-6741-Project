@@ -23,6 +23,8 @@ intents:
   - ListGrades
   - ListStudentsByCompletedCourse
   - ListStudentTranscript
+  - ShowDescription
+  - ListTopicByCourseEvent
 
 actions:
   - action_show_time
@@ -40,7 +42,9 @@ actions:
   - action_list_grades
   - action_list_students_by_completed_course
   - action_list_students_transcript
-  
+  - action_show_description
+  - action_list_topic_by_course_event
+
 entities:
   - person
   - course
@@ -116,7 +120,6 @@ slots:
     mappings:
       - type: from_entity
         entity: student
-  
 
 responses:
   utter_greet:
