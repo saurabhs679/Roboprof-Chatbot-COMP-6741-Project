@@ -1,0 +1,123 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: path about time
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: give_time
+      - action: action_show_time
+
+  - story: get person info
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: about_person
+      - action: action_person_info
+
+  - story: List Courses
+    steps:
+      - intent: ListCoursesIntent
+      - action: action_list_courses
+
+  - story: Courses for Topic
+    steps:
+      - intent: CoursesForTopicIntent
+      - action: action_courses_for_topic
+
+  - story: Topics Covered in Course
+    steps:
+      - intent: TopicsCoveredInCourseIntent
+      - action: action_topics_covered_in_course
+  
+  - story: List Courses in Subject
+    steps:
+      - intent: ListCousesInSubject
+      - action: action_list_courses_in_subject
+
+  - story: List materials
+    steps:
+      - intent: ListMaterialByTopicAndCourse
+      - action: action_list_materials
+
+  - story: List course credits
+    steps:
+      - intent: ListCourseCredits
+      - action: action_list_course_credits
+
+  - story: List additional resources
+    steps:
+      - intent: ListAdditionalResources
+      - action: action_list_additional_resources
+
+  - story: List content details
+    steps:
+      - intent: ListContentDetails
+      - action: action_list_content_details
+
+  - story: List reading material
+    steps:
+      - intent: ListReadingMaterials
+      - action: action_reading_materials
+  
+  - story: List competencies
+    steps:
+      - intent: ListCompetencies
+      - action: action_list_competencies
+
+  - story: List grades
+    steps:
+      - intent: ListGrades
+      - action: action_list_grades
+
+  - story: List Students By Completed Course
+    steps:
+      - intent: ListStudentsByCompletedCourse
+      - action: action_list_students_by_completed_course
+
+  - story: List students transcript
+    steps:
+      - intent: ListStudentTranscript
+      - action: action_list_students_transcript
+
+  - story: Show description
+    steps:
+      - intent: ShowDescription
+      - action: action_show_description
+  
+  - story: List topics by course event
+    steps:
+      - intent: ListTopicByCourseEvent
+      - action: action_list_topic_by_course_event
+
+  - story: List topic content
+    steps:
+      - intent: ListTopicContent
+      - action: action_list_topic_content

@@ -1,4 +1,1431 @@
 @prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Course a rdfs:Class ;
+    rdfs:label "Course" .
+
+ex:Lecture a rdfs:Class ;
+    rdfs:label "Lecture" .
+
+ex:Student a rdfs:Class ;
+    rdfs:label "Student" ;
+    rdfs:subClassOf ex:Person .
+
+ex:Topic a rdfs:Class ;
+    rdfs:label "Topic" .
+
+ex:University a rdfs:Class ;
+    rdfs:label "University" .
+
+ex:40213434 a ex:Student ;
+    ex:IDNumber "40213434" ;
+    ex:competentIn "k-Means Clustering" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "wilson.natalie@gmail.com" ;
+    ex:firstName "Natalie" ;
+    ex:grade "B+" ;
+    ex:lastName "Wilson" .
+
+ex:40214342 a ex:Student ;
+    ex:IDNumber "40214342" ;
+    ex:competentIn "Text mining" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "Gagan.singh234@gmail.com" ;
+    ex:firstName "Gagan" ;
+    ex:grade "A" ;
+    ex:lastName "Singh" .
+
+ex:40222344 a ex:Student ;
+    ex:IDNumber "40222344" ;
+    ex:competentIn "Text mining" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "juan.g@yahoo.com" ;
+    ex:firstName "Juan" ;
+    ex:grade "B+" ;
+    ex:lastName "Gonzalez" .
+
+ex:40224532 a ex:Student ;
+    ex:IDNumber "40224532" ;
+    ex:competentIn "Content-based Recommendations" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "stevens@gmail.com" ;
+    ex:firstName "Steven" ;
+    ex:grade "A-" ;
+    ex:lastName "Schipero" .
+
+ex:40225324 a ex:Student ;
+    ex:IDNumber "40225324" ;
+    ex:competentIn "Binary Trees" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "Yash.c@gmail.com" ;
+    ex:firstName "Yash" ;
+    ex:grade "A+" ;
+    ex:lastName "Changrani" .
+
+ex:40225343 a ex:Student ;
+    ex:IDNumber "40225343" ;
+    ex:competentIn "Collaborative Filtering" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "R.yadav@gmail.com" ;
+    ex:firstName "Rahul" ;
+    ex:grade "B-" ;
+    ex:lastName "Yadav" .
+
+ex:40225634 a ex:Student ;
+    ex:IDNumber "40225634" ;
+    ex:competentIn "Natural Language Processing (NLP)" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "cullen.ed@gmail.com" ;
+    ex:firstName "Edward" ;
+    ex:grade "B-" ;
+    ex:lastName "Cullen" .
+
+ex:40225643 a ex:Student ;
+    ex:IDNumber "40225643" ;
+    ex:competentIn "Pattern-Matching Bots" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "mayer.john@gmail.com" ;
+    ex:firstName "John" ;
+    ex:grade "A" ;
+    ex:lastName "Mayer" .
+
+ex:40226284 a ex:Student ;
+    ex:IDNumber "40226284" ;
+    ex:competentIn "Depth First Search (DFS)" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "A.signh@gmail.com" ;
+    ex:firstName "Arshdeep" ;
+    ex:grade "A-" ;
+    ex:lastName "Singh" .
+
+ex:40226289 a ex:Student ;
+    ex:IDNumber "40226289" ;
+    ex:competentIn "Algorithm efficiency" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "prashant.tilekar@gmail.com" ;
+    ex:firstName "Prashant" ;
+    ex:grade "B" ;
+    ex:lastName "Tilekar" .
+
+ex:40226298 a ex:Student ;
+    ex:IDNumber "40226298" ;
+    ex:competentIn "Hash table" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "saurabhs679@gmail.com" ;
+    ex:firstName "Saurabh" ;
+    ex:grade "B" ;
+    ex:lastName "Sharma" .
+
+ex:40226334 a ex:Student ;
+    ex:IDNumber "40226334" ;
+    ex:competentIn "Graphs" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "tylrishabh@gmail.com" ;
+    ex:firstName "Rishabh" ;
+    ex:grade "B+" ;
+    ex:lastName "Tayal" .
+
+ex:40226345 a ex:Student ;
+    ex:IDNumber "40226345" ;
+    ex:competentIn "Binary Trees" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "Karan.singla@gmail.com" ;
+    ex:firstName "Karan" ;
+    ex:grade "A" ;
+    ex:lastName "Singla" .
+
+ex:40226725 a ex:Student ;
+    ex:IDNumber "40226725" ;
+    ex:competentIn "The Resource Description Framework (RDF)" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "nico.jun@gmail.com" ;
+    ex:firstName "Nicolas" ;
+    ex:grade "B" ;
+    ex:lastName "Jun" .
+
+ex:40233434 a ex:Student ;
+    ex:IDNumber "40233434" ;
+    ex:competentIn "Run Time Errors" ;
+    ex:completedCourse "COMP 6481",
+        "COMP 6741" ;
+    ex:course ex:COMP_6481,
+        ex:COMP_6741 ;
+    ex:email "anubhavmahajan852852@gmail.com" ;
+    ex:firstName "Anubhav" ;
+    ex:grade "A",
+        "A+" ;
+    ex:lastName "Mahajan" .
+
+ex:Algorithm_efficiency a ex:Topic ;
+    ex:TopicName "Algorithm efficiency" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Category:Algorithms> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:Binary_Trees a ex:Topic ;
+    ex:TopicName "Binary Trees" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Binary_tree> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Trees .
+
+ex:Collaborative_Filtering a ex:Topic ;
+    ex:TopicName "Collaborative Filtering" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Collaborative_filtering> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Recommender_Systems .
+
+ex:Concordia_University a ex:University ;
+    ex:UniversityLink <https://dbpedia.org/page/Concordia_University> ;
+    ex:UniversityName "Concordia University" .
+
+ex:Content-based_Recommendations a ex:Topic ;
+    ex:TopicName "Content-based Recommendations" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Recommender_system> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Recommender_Systems .
+
+ex:CourseName a rdf:Property ;
+    rdfs:label "course name" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:CourseNumber a rdf:Property ;
+    rdfs:label "course number" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Credits a rdf:Property ;
+    rdfs:label "course credits" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Depth_First_Search_\(DFS\) a ex:Topic ;
+    ex:TopicName "Depth First Search (DFS)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Depth-first_search> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Description a rdf:Property ;
+    rdfs:label "course description" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:HashMap a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/HashMap/maphash.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_9.pdf
+Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
+    ex:lectureLink <https://dbpedia.org/page/Hash_table> ;
+    ex:lectureName "HashMap" ;
+    ex:lectureNumber "6" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Hash_table a ex:Topic ;
+    ex:TopicName "Hash table" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Hash_table> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:IDNumber a rdf:Property ;
+    rdfs:label "student ID number" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:Inheritance a ex:Topic ;
+    ex:TopicName "Inheritance" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Object-oriented_programming> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:Introduction_to_Knowledge_Graphs_\(RDF\) a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides02.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet02.pdf
+Readings: [Yu14, Chapters 1, 2] (Introduction, RDF)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/897466408> ;
+    ex:lectureName "Introduction to Knowledge Graphs (RDF)" ;
+    ex:lectureNumber "2" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Knowledge_Base_Queries_\(SPARQL\)_and_Linked_Open_Data_\(LOD\) a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides04.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet04.pdf
+Readings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/853679890> ;
+    ex:lectureName "Knowledge Base Queries (SPARQL) and Linked Open Data (LOD)" ;
+    ex:lectureNumber "4" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+<http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides03.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet03.pdf
+Readings: [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)""" ;
+    ex:lectureLink <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> ;
+    ex:lectureName "Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)" ;
+    ex:lectureNumber "3" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Knowledge_graphs a ex:Topic ;
+    ex:TopicName "Knowledge graphs" ;
+    ex:dbpediaLink <https://dbpedia.org/resource/Knowledge_graph> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Introduction_to_Intelligent_Systems .
+
+ex:Natural_Language_Processing_\(NLP\) a ex:Topic ;
+    ex:TopicName "Natural Language Processing (NLP)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Natural_language_processing> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Outline a rdf:Property ;
+    rdfs:label "course outline" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+ex:Pattern-Matching_Bots a ex:Topic ;
+    ex:TopicName "Pattern-Matching Bots" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q1503724> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+<http://example.org/Personalization_&_Recommender_Systems> a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides05.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet05.pdf
+Readings:  [Ala09, Chapters 2, 3] (Recommendations), [MRS08, Chapter 8] (Evaluation)""" ;
+    ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/314121652> ;
+    ex:lectureName "Personalization & Recommender Systems" ;
+    ex:lectureNumber "5" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Run_Time_Errors a ex:Topic ;
+    ex:TopicName "Run Time Errors" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q15825362> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Exception_Handelling .
+
+ex:Subject a rdf:Property ;
+    rdfs:label "course subject" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:Literal .
+
+ex:Tail_Recursion a ex:Topic ;
+    ex:TopicName "Tail Recursion" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Tail_call> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
+ex:Text_mining a ex:Topic ;
+    ex:TopicName "Text mining" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q676880> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Introduction_to_Intelligent_Systems .
+
+ex:The_Resource_Description_Framework_\(RDF\) a ex:Topic ;
+    ex:TopicName "The Resource Description Framework (RDF)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Resource_Description_Framework> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Knowledge_Graphs .
+
+ex:TopicName a rdf:Property ;
+    rdfs:label "topic name" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:UniversityLink a rdf:Property ;
+    rdfs:label "DBpedia Link" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:URIRef .
+
+ex:UniversityName a rdf:Property ;
+    rdfs:label "university name" ;
+    rdfs:domain ex:University ;
+    rdfs:range rdfs:Literal .
+
+ex:WebpageLink a rdf:Property ;
+    rdfs:label "course webpage" ;
+    rdfs:domain ex:Course ;
+    rdfs:range rdfs:URIRef .
+
+ex:competentIn a rdf:Property ;
+    rdfs:label "competent in" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:completedCourse a rdf:Property ;
+    rdfs:label "completed course" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:content a rdf:Property ;
+    rdfs:label "lecture content" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:dbpediaLink a rdf:Property ;
+    rdfs:label "DBpedia link" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:URIRef .
+
+ex:email a rdf:Property ;
+    rdfs:label "email address" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:firstName a rdf:Property ;
+    rdfs:label "first name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:grade a rdf:Property ;
+    rdfs:label "grade" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:k-Means_Clustering a ex:Topic ;
+    ex:TopicName "k-Means Clustering" ;
+    ex:dbpediaLink <https://dbpedia.org/page/K-means_clustering> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:lastName a rdf:Property ;
+    rdfs:label "last name" ;
+    rdfs:domain ex:Student ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureLink a rdf:Property ;
+    rdfs:label "lecture webpage" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:URIRef .
+
+ex:lectureName a rdf:Property ;
+    rdfs:label "lecture name" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectureNumber a rdf:Property ;
+    rdfs:label "lecture number" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range rdfs:Literal .
+
+ex:lectures_in_course a rdf:ObjectProperty ;
+    rdfs:label "Lectures in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Lectures .
+
+ex:provenance a rdf:Property ;
+    rdfs:label "provenance information" ;
+    rdfs:domain ex:Topic ;
+    rdfs:range rdfs:Literal .
+
+ex:student_in_course a rdf:ObjectProperty ;
+    rdfs:label "Student in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Student .
+
+ex:topic_in_course a rdf:ObjectProperty ;
+    rdfs:label "Topic in Course" ;
+    rdfs:domain ex:Course ;
+    rdfs:range ex:Topic .
+
+ex:topic_in_lecture a rdf:ObjectProperty ;
+    rdfs:label "Topic in Lecture" ;
+    rdfs:domain ex:Lecture ;
+    rdfs:range ex:Topic .
+
+ex:Algorithm_analysis a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\aa.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_2.pdf
+Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
+    ex:lectureLink <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> ;
+    ex:lectureName "Algorithm analysis" ;
+    ex:lectureNumber "2" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Exception_Handelling a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Exception_Handelling/chap9-Exceptions-NA.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_3.pdf
+Readings: https://stackify.com/specify-handle-exceptions-java/#:~:text=Java%20provides%20two%20different%20options,easier%20cleanup%20process%20for%20resources.""" ;
+    ex:lectureLink <https://www.wikidata.org/wiki/Q471748> ;
+    ex:lectureName "Exception Handelling" ;
+    ex:lectureNumber "4" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Graphs a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Graphs.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_7.pdf
+Readings: https://www.baeldung.com/java-graphs""" ;
+    ex:lectureLink <https://dbpedia.org/page/Graph_(abstract_data_type)> ;
+    ex:lectureName "Graphs" ;
+    ex:lectureNumber "7" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Intelligent_Agents a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides07.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet07.pdf
+Readings: [LHH19, Chapter 12] (Dialog engines)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Intelligent_agent> ;
+    ex:lectureName "Intelligent Agents" ;
+    ex:lectureNumber "7" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Introduction a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\chap7-Inheritance.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_1.pdf
+Readings: """ ;
+    ex:lectureLink <> ;
+    ex:lectureName "Introduction" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Machine_Learning_for_Intelligent_Systems a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides06.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet06.pdf
+Readings: [MG17, Chapters 2, 3, 5] (kNN, k-Means, Evaluation)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Machine_learning> ;
+    ex:lectureName "Machine Learning for Intelligent Systems" ;
+    ex:lectureNumber "6" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Recursion a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\Recursion.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/COMP6481_TUT_05_Reg.pdf
+Readings: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/""" ;
+    ex:lectureLink <https://www.youtube.com/watch?v=FyHloXKnPWc> ;
+    ex:lectureName "Recursion" ;
+    ex:lectureNumber "3" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Text_Mining a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides08.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet08.pdf
+Readings: [LHH19, Chapter 11] (Information extraction)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Text_mining> ;
+    ex:lectureName "Text Mining" ;
+    ex:lectureNumber "8" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Trees a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Trees/trees.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_10.pdf
+Readings: https://javachallengers.com/tree-data-structure-with-java/#:~:text=The%20tree%20data%20structure%20is,nodes%20is%20called%20a%20branch.""" ;
+    ex:lectureLink <https://dbpedia.org/page/Tree_(data_structure)> ;
+    ex:lectureName "Trees" ;
+    ex:lectureNumber "5" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Introduction_to_Intelligent_Systems a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides01.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet01.pdf
+Readings: Introduction to Artificial Intelligence, https://plato.stanford.edu/entries/artificial-intelligence/, Eliza, https://en.wikipedia.org/wiki/ELIZA""" ;
+    ex:lectureLink <https://dbpedia.org/page/Artificial_intelligence> ;
+    ex:lectureName "Introduction to Intelligent Systems" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:COMP_6481 a ex:Course ;
+    ex:CourseName "PPS" ;
+    ex:CourseNumber "6481" ;
+    ex:Credits "4" ;
+    ex:Description "Code" ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+
+ex:COMP_6741 a ex:Course ;
+    ex:CourseName "Intelligent Systems" ;
+    ex:CourseNumber "6741" ;
+    ex:Credits "4" ;
+    ex:Description "Knowledge representation and reasoning. Uncertainty and conflict resolution . . ." ;
+    ex:Outline <https://moodle.concordia.ca/moodle/course/view.php?id=162041#section-0> ;
+    ex:Subject "COMP" ;
+    ex:WebpageLink <https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-courses/computer-science-and-software-engineering-master-s-and-phd-courses.html> .
+
+@prefix ex: <http://example.org/> .
+
+ex:2D a ex:Topic ;
+    ex:TopicName "2D" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/2D_computer_graphics> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:ADT a ex:Topic ;
+    ex:TopicName "ADT" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/ADT_Inc.> ;
+    ex:provenance "Tutorial3",
+        "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap,
+        ex:Hashmap_Tutorial3 .
+
+ex:AVL a ex:Topic ;
+    ex:TopicName "AVL" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Automatic_vehicle_location> ;
+    ex:provenance "Tutorial5" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Trees_Tutorial5 .
+
+ex:Adjective a ex:Topic ;
+    ex:TopicName "Adjective" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Adjective> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Alexa a ex:Topic ;
+    ex:TopicName "Alexa" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Alexa_Internet> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Aspergillus a ex:Topic ;
+    ex:TopicName "Aspergillus" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Aspergillus> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:BS a ex:Topic ;
+    ex:TopicName "BS" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Bachelor_of_Science> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:BST a ex:Topic ;
+    ex:TopicName "BST" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/British_Summer_Time> ;
+    ex:provenance "Tutorial5" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Trees_Tutorial5 .
+
+ex:COMP a ex:Topic ;
+    ex:TopicName "COMP" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
+ex:CPU a ex:Topic ;
+    ex:TopicName "CPU" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Central_processing_unit> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:Canada a ex:Topic ;
+    ex:TopicName "Canada" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Canada> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Central_Florida a ex:Topic ;
+    ex:TopicName "Central Florida" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Central_Florida> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Chunking a ex:Topic ;
+    ex:TopicName "Chunking" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Chongqing> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Computer_Science a ex:Topic ;
+    ex:TopicName "Computer Science" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Computer_science> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Concordia a ex:Topic ;
+    ex:TopicName "Concordia" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Concordia_University> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3,
+        ex:Text_Mining_worksheet3 .
+
+ex:Concordia_University a ex:Topic ;
+    ex:TopicName "Concordia University" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Concordia_University> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3,
+        ex:Text_Mining_worksheet3 .
+
+ex:DBpedia a ex:Topic ;
+    ex:TopicName "DBpedia" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/DBpedia> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:DL a ex:Topic ;
+    ex:TopicName "DL" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Deputy_lieutenant> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:DS a ex:Topic ;
+    ex:TopicName "DS" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Nintendo_DS> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:Derive a ex:Topic ;
+    ex:TopicName "Derive" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Derive_(computer_algebra_system)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:EGFR a ex:Topic ;
+    ex:TopicName "EGFR" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Epidermal_growth_factor_receptor> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Edge a ex:Topic ;
+    ex:TopicName "Edge" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Edge_(wrestler)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Europe a ex:Topic ;
+    ex:TopicName "Europe" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Europe> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:F-Measure a ex:Topic ;
+    ex:TopicName "F-Measure" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/F1_score> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:FIRST a ex:Topic ;
+    ex:TopicName "FIRST" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/For_Inspiration_and_Recognition_of_Science_and_Technology> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
+ex:Frey a ex:Topic ;
+    ex:TopicName "Frey" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Richard_Karl_Hjalmar_Frey> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:GATE a ex:Topic ;
+    ex:TopicName "GATE" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Graduate_Aptitude_Test_in_Engineering> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:Gartner a ex:Topic ;
+    ex:TopicName "Gartner" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Gartner> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Gefitinib a ex:Topic ;
+    ex:TopicName "Gefitinib" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Gefitinib> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:General a ex:Topic ;
+    ex:TopicName "General" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/General_officer> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:Goldwasser a ex:Topic ;
+    ex:TopicName "Goldwasser" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Shafi_Goldwasser> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis,
+        ex:Hashmap .
+
+ex:Google a ex:Topic ;
+    ex:TopicName "Google" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Google> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Grad a ex:Topic ;
+    ex:TopicName "Grad" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/BM-21_Grad> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:HIM a ex:Topic ;
+    ex:TopicName "HIM" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/HIM_(Finnish_band)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
+ex:Hash_Function a ex:Topic ;
+    ex:TopicName "Hash Function" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Hash_function> ;
+    ex:provenance "Tutorial3" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3 .
+
+ex:Hashtable a ex:Topic ;
+    ex:TopicName "Hashtable" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Hash_table> ;
+    ex:provenance "Tutorial3" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3 .
+
+ex:Hilton a ex:Topic ;
+    ex:TopicName "Hilton" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Hilton_Worldwide> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Hre a ex:Topic ;
+    ex:TopicName "Hre" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/H're_people> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:IS-A a ex:Topic ;
+    ex:TopicName "IS-A" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Is-a> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:Information_Extraction a ex:Topic ;
+    ex:TopicName "Information Extraction" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Information_extraction> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:Intelligent_Systems a ex:Topic ;
+    ex:TopicName "Intelligent Systems" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Artificial_intelligence> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:JVM a ex:Topic ;
+    ex:TopicName "JVM" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Java_virtual_machine> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Exception_Handelling .
+
+ex:Java a ex:Topic ;
+    ex:TopicName "Java" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Java> ;
+    ex:provenance "Tutorial1",
+        "Tutorial3",
+        "Tutorial4",
+        "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis,
+        ex:Exception_Handelling,
+        ex:Exception_Handelling_Tutorial1,
+        ex:Hashmap,
+        ex:Hashmap_Tutorial3,
+        ex:Introduction,
+        ex:Introduction_Tutorial4,
+        ex:Recursion .
+
+ex:KB a ex:Topic ;
+    ex:TopicName "KB" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Kilobyte> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Knowledge_Worker a ex:Topic ;
+    ex:TopicName "Knowledge Worker" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Knowledge_worker> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Koko a ex:Topic ;
+    ex:TopicName "Koko" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Koko_the_Clown> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:LGPL a ex:Topic ;
+    ex:TopicName "LGPL" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/GNU_Lesser_General_Public_License> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:LOD a ex:Topic ;
+    ex:TopicName "LOD" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Length_overall> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Lemmatization a ex:Topic ;
+    ex:TopicName "Lemmatization" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Lemmatisation> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Linked_Open_Data a ex:Topic ;
+    ex:TopicName "Linked Open Data" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Linked_data> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Loyola_College a ex:Topic ;
+    ex:TopicName "Loyola College" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Loyola_University_Maryland> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:ML a ex:Topic ;
+    ex:TopicName "ML" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/ML_(programming_language)> ;
+    ex:provenance "lecture",
+        "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3,
+        ex:Machine_Learning_for_Intelligent_Systems,
+        ex:Machine_Learning_for_Intelligent_Systems_worksheet2 .
+
+ex:Machine_Learning a ex:Topic ;
+    ex:TopicName "Machine Learning" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Machine_learning> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:McGill a ex:Topic ;
+    ex:TopicName "McGill" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/McGill_University> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Mexico a ex:Topic ;
+    ex:TopicName "Mexico" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Mexico> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Montreal a ex:Topic ;
+    ex:TopicName "Montreal" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Montreal> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Mutation a ex:Topic ;
+    ex:TopicName "Mutation" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Mutation> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:NER a ex:Topic ;
+    ex:TopicName "NER" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Nucleotide_excision_repair> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:NLP a ex:Topic ;
+    ex:TopicName "NLP" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Natural_language_processing> ;
+    ex:provenance "lecture",
+        "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining,
+        ex:Text_Mining_worksheet3 .
+
+ex:NP a ex:Topic ;
+    ex:TopicName "NP" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/NP_(complexity)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:NYU a ex:Topic ;
+    ex:TopicName "NYU" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/New_York_University> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:OPE a ex:Topic ;
+    ex:TopicName "OPE" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Ope> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:OpenCalais a ex:Topic ;
+    ex:TopicName "OpenCalais" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Calais_(Reuters_product)> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Organism a ex:Topic ;
+    ex:TopicName "Organism" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Organism> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Overfitting a ex:Topic ;
+    ex:TopicName "Overfitting" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Overfitting> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:PDF a ex:Topic ;
+    ex:TopicName "PDF" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/PDF> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:PITFALL a ex:Topic ;
+    ex:TopicName "PITFALL" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Pitfall!> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
+ex:POS a ex:Topic ;
+    ex:TopicName "POS" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Part_of_speech> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:PUNCT a ex:Topic ;
+    ex:TopicName "PUNCT" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Punct_(magazine)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:PVD a ex:Topic ;
+    ex:TopicName "PVD" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Physical_vapor_deposition> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Paris a ex:Topic ;
+    ex:TopicName "Paris" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Paris> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Paris_Hilton a ex:Topic ;
+    ex:TopicName "Paris Hilton" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Paris_Hilton> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Parsing a ex:Topic ;
+    ex:TopicName "Parsing" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Parsing> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Preorder a ex:Topic ;
+    ex:TopicName "Preorder" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Preorder> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Primate a ex:Topic ;
+    ex:TopicName "Primate" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Primate> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:Priority_Queue a ex:Topic ;
+    ex:TopicName "Priority Queue" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Priority_queue> ;
+    ex:provenance "Tutorial2" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs_Tutorial2 .
+
+ex:Pronoun a ex:Topic ;
+    ex:TopicName "Pronoun" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Pronoun> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:PyTorch a ex:Topic ;
+    ex:TopicName "PyTorch" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/PyTorch> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Quadratic a ex:Topic ;
+    ex:TopicName "Quadratic" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Quadratic>,
+        <http://dbpedia.org/resource/Quadratic_function> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:Quebec a ex:Topic ;
+    ex:TopicName "Quebec" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Quebec> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Quick_Sort a ex:Topic ;
+    ex:TopicName "Quick Sort" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Quicksort> ;
+    ex:provenance "Tutorial5" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Trees_Tutorial5 .
+
+ex:Quicksort a ex:Topic ;
+    ex:TopicName "Quicksort" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Quicksort> ;
+    ex:provenance "Tutorial3" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3 .
+
+ex:RDF a ex:Topic ;
+    ex:TopicName "RDF" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Resource_Description_Framework> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:RT a ex:Topic ;
+    ex:TopicName "RT" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Radiotelephone> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Reading a ex:Topic ;
+    ex:TopicName "Reading" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Reading_F.C.> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents,
+        ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:Roman_Catholic_Church a ex:Topic ;
+    ex:TopicName "Roman Catholic Church" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Catholic_Church> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:SMAD3 a ex:Topic ;
+    ex:TopicName "SMAD3" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Mothers_against_decapentaplegic_homolog_3> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Siri a ex:Topic ;
+    ex:TopicName "Siri" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Siri> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Southern_Illinois_University a ex:Topic ;
+    ex:TopicName "Southern Illinois University" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Southern_Illinois_University> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Steve_Jobs a ex:Topic ;
+    ex:TopicName "Steve Jobs" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Steve_Jobs> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:TensorFlow a ex:Topic ;
+    ex:TopicName "TensorFlow" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/TensorFlow> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Timsort a ex:Topic ;
+    ex:TopicName "Timsort" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Timsort> ;
+    ex:provenance "Tutorial3" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3 .
+
+ex:Tokenization a ex:Topic ;
+    ex:TopicName "Tokenization" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Lexical_analysis> ;
+    ex:provenance "lecture",
+        "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining,
+        ex:Text_Mining_worksheet3 .
+
+ex:Tumor_Board a ex:Topic ;
+    ex:TopicName "Tumor Board" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Tumor_board_review> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+<http://example.org/U.K.> a ex:Topic ;
+    ex:TopicName "U.K." ;
+    ex:dbpediaLink <http://dbpedia.org/resource/United_Kingdom> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:UIMA a ex:Topic ;
+    ex:TopicName "UIMA" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/UIMA> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:UK a ex:Topic ;
+    ex:TopicName "UK" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/United_Kingdom> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:U_X a ex:Topic ;
+    ex:TopicName "U X" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/SM_U-10_(Austria-Hungary)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
+ex:Unicode a ex:Topic ;
+    ex:TopicName "Unicode" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Unicode> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:Washington a ex:Topic ;
+    ex:TopicName "Washington" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Washington_(state)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:Waterloo a ex:Topic ;
+    ex:TopicName "Waterloo" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Battle_of_Waterloo> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+ex:Webster a ex:Topic ;
+    ex:TopicName "Webster" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Martell_Webster> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
+
+ex:Wikipedia a ex:Topic ;
+    ex:TopicName "Wikipedia" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Wikipedia> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents_worksheet3 .
+
+ex:Wiley a ex:Topic ;
+    ex:TopicName "Wiley" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Wiley-Blackwell> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis,
+        ex:Hashmap .
+
+ex:Windows a ex:Topic ;
+    ex:TopicName "Windows" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Microsoft_Windows> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:XML a ex:Topic ;
+    ex:TopicName "XML" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/XML> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:Zootopia a ex:Topic ;
+    ex:TopicName "Zootopia" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Zootopia> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:automation a ex:Topic ;
+    ex:TopicName "automation" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Automation> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:binary a ex:Topic ;
+    ex:TopicName "binary" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Binary_star> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
+ex:byte a ex:Topic ;
+    ex:TopicName "byte" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Byte> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:ec a ex:Topic ;
+    ex:TopicName "ec" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/EC_(programming_language)> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:exon a ex:Topic ;
+    ex:TopicName "exon" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Exon> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
+
+ex:hash a ex:Topic ;
+    ex:TopicName "hash" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Hash_function> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap .
+
+ex:kNN a ex:Topic ;
+    ex:TopicName "kNN" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> ;
+    ex:provenance "lecture",
+        "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems,
+        ex:Machine_Learning_for_Intelligent_Systems_worksheet2 .
+
+ex:partition a ex:Topic ;
+    ex:TopicName "partition" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Partition_of_a_set> ;
+    ex:provenance "Tutorial3" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3 .
+
+ex:tem a ex:Topic ;
+    ex:TopicName "tem" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Transmission_electron_microscopy> ;
+    ex:provenance "lecture" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
+ex:Recursion a ex:Topic ;
+    ex:TopicName "Recursion" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Recursion> ;
+    ex:provenance "Tutorial3",
+        "lecture" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Hashmap_Tutorial3,
+        ex:Recursion .
+
+ex:Text_Mining a ex:Topic ;
+    ex:TopicName "Text Mining" ;
+    ex:dbpediaLink <http://dbpedia.org/resource/Text_mining> ;
+    ex:provenance "worksheet" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining_worksheet3 .
+
+@prefix ex: <http://example.org/> .
 
 ex:FAS_0173 a ex:Course ;
     ex:CourseLevel "FTRA" ;

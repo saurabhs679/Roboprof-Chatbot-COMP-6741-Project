@@ -1,16 +1,16 @@
-﻿First Name,Last Name,ID Number,Email,Course,Grades,Competencies
-Saurabh,Sharma,40226298,saurabhs679@gmail.com,COMP 6481,B,Hash table
-Anubhav,Jain,40233434,anubhavmahajan852852@gmail.com,COMP 6481,A,Run Time Errors
-Rishabh,Tayal,40226334,tylrishabh@gmail.com,COMP 6481,B+,Graphs
-Prashant,Tilekar,40226289,prashant.tilekar@gmail.com,COMP 6481,B,Algorithm efficiency
-Karan,Singla,40226345,Karan.singla@gmail.com,COMP 6481,A,Binary Trees
-Yash,Changrani,40225324,Yash.c@gmail.com,COMP 6481,A+,Binary Trees
-Arshdeep,Singh,40226284,A.signh@gmail.com,COMP 6481,A-,Depth First Search (DFS)
-Gagan,Singh,40214342,Gagan.singh234@gmail.com,COMP 6741,A,Text mining
-Rahul,Yadav,40225343,R.yadav@gmail.com,COMP 6741,B-,Collaborative Filtering
-John,Mayer,40225643,mayer.john@gmail.com,COMP 6741,A,Pattern-Matching Bots
-Natalie,Wilson,40213434,wilson.natalie@gmail.com,COMP 6741,B+,k-Means Clustering
-Nicolas,Jun,40226725,nico.jun@gmail.com,COMP 6741,B,The Resource Description Framework (RDF)
-Juan,Gonzalez,40222344,juan.g@yahoo.com,COMP 6741,B+,Text mining
-Steven,Schipero,40224532,stevens@gmail.com,COMP 6741,A-,Content-based Recommendations
-Edward,Cullen,40225634,cullen.ed@gmail.com,COMP 6741,B-,Natural Language Processing (NLP)
+First Name,Last Name,ID Number,Email,Course,Grades,Competencies,Retaken,New_Grade
+Saurabh,Sharma,40226298,saurabhs679@gmail.com,COMP 6481,B,Hash table,Yes,A
+Anubhav,Jain,40233434,anubhavmahajan852852@gmail.com,COMP 6481,A,Run Time Errors,No,A
+Rishabh,Tayal,40226334,tylrishabh@gmail.com,COMP 6481,B+,Graphs,Yes,A+
+Prashant,Tilekar,40226289,prashant.tilekar@gmail.com,COMP 6481,B,Algorithm efficiency,No,B
+Karan,Singla,40226345,Karan.singla@gmail.com,COMP 6481,A,Binary Trees,Yes,A
+Yash,Changrani,40225324,Yash.c@gmail.com,COMP 6481,A+,Binary Trees,No,A+
+Arshdeep,Singh,40226284,A.signh@gmail.com,COMP 6481,A-,Depth First Search (DFS),Yes,A+
+Gagan,Singh,40214342,Gagan.singh234@gmail.com,COMP 6741,A,Text mining,No,A
+Rahul,Yadav,40225343,R.yadav@gmail.com,COMP 6741,B-,Collaborative Filtering,Yes,B-
+John,Mayer,40225643,mayer.john@gmail.com,COMP 6741,A,Pattern-Matching Bots,No,A
+Natalie,Wilson,40213434,wilson.natalie@gmail.com,COMP 6741,B+,k-Means Clustering,Yes,A+
+Nicolas,Jun,40226725,nico.jun@gmail.com,COMP 6741,B,The Resource Description Framework (RDF),No,B
+Juan,Gonzalez,40222344,juan.g@yahoo.com,COMP 6741,B+,Text mining,Yes,A+
+Steven,Schipero,40224532,stevens@gmail.com,COMP 6741,A-,Content-based Recommendations,No,A-
+Edward,Cullen,40225634,cullen.ed@gmail.com,COMP 6741,B-,Natural Language Processing (NLP),Yes,A+

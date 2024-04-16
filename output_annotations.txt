@@ -1,0 +1,2407 @@
+File: Algorithm analysis.txt
+Entity: CPU
+URI: http://dbpedia.org/resource/Central_processing_unit
+Surface Form: CPU
+Types: 
+
+File: Algorithm analysis.txt
+Entity: Windows
+URI: http://dbpedia.org/resource/Microsoft_Windows
+Surface Form: Windows
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Algorithm analysis.txt
+Entity: CPU
+URI: http://dbpedia.org/resource/Central_processing_unit
+Surface Form: CPU
+Types: 
+
+File: Algorithm analysis.txt
+Entity: BS Trees
+URI: http://dbpedia.org/resource/Bachelor_of_Science
+Surface Form: BS
+Types: 
+
+File: Algorithm analysis.txt
+Entity: Tree Performance
+30Which DS
+URI: http://dbpedia.org/resource/Nintendo_DS
+Surface Form: DS
+Types: Wikidata:Q1067263,DBpedia:Device,DBpedia:InformationAppliance
+
+File: Algorithm analysis.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Algorithm analysis.txt
+Entity: M. H.
+Goldwasser
+URI: http://dbpedia.org/resource/Shafi_Goldwasser
+Surface Form: Goldwasser
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q901,Wikidata:Q5,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Person,DBpedia:Agent,DBpedia:Scientist
+
+File: Algorithm analysis.txt
+Entity: Wiley
+URI: http://dbpedia.org/resource/Wiley-Blackwell
+Surface Form: Wiley
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Company,DBpedia:Agent,DBpedia:Publisher
+
+File: Exception Handelling.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Exception Handelling.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Exception Handelling.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Exception Handelling.txt
+Entity: JVM
+URI: http://dbpedia.org/resource/Java_virtual_machine
+Surface Form: JVM
+Types: 
+
+File: Exception Handelling_Tutorial1.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Exception Handelling_Tutorial1.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Exception Handelling_Tutorial1.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Graphs.txt
+Entity: Edge
+URI: http://dbpedia.org/resource/Edge_(wrestler)
+Surface Form: Edge
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q5,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Agent,DBpedia:Person
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: PVD
+URI: http://dbpedia.org/resource/Physical_vapor_deposition
+Surface Form: PVD
+Types: 
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: U X Z
+Degree
+URI: http://dbpedia.org/resource/SM_U-10_(Austria-Hungary)
+Surface Form: U X
+Types: Wikidata:Q11446,Schema:Product,DBpedia:MeanOfTransportation,DBpedia:Ship
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: U X Z
+URI: http://dbpedia.org/resource/SM_U-10_(Austria-Hungary)
+Surface Form: U X
+Types: Wikidata:Q11446,Schema:Product,DBpedia:MeanOfTransportation,DBpedia:Ship
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: U X Z
+Simple
+URI: http://dbpedia.org/resource/SM_U-10_(Austria-Hungary)
+Surface Form: U X
+Types: Wikidata:Q11446,Schema:Product,DBpedia:MeanOfTransportation,DBpedia:Ship
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Edge
+URI: http://dbpedia.org/resource/Edge_(wrestler)
+Surface Form: Edge
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q5,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Agent,DBpedia:Person
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: University of Central Florida
+URI: http://dbpedia.org/resource/Central_Florida
+Surface Form: Central Florida
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Adjacency List
+Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Preorder
+URI: http://dbpedia.org/resource/Preorder
+Surface Form: Preorder
+Types: 
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: j k l m n o
+NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: j k l m n o
+NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Spanning Tree
+Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: 68Graphs
+Minimum Spanning Trees
+Southern Illinois University
+URI: http://dbpedia.org/resource/Southern_Illinois_University
+Surface Form: Southern Illinois University
+Types: Wikidata:Q43229,Wikidata:Q3918,Wikidata:Q24229398,Wikidata:Q2385804,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:EducationalOrganization,Schema:CollegeOrUniversity,DBpedia:Organisation,DBpedia:EducationalInstitution,DBpedia:Agent,DBpedia:University
+
+File: Graphs.txt
+Entity: NYU Computer Science
+70Graphs
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+70Graphs
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: Shortest Paths
+NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/New_York_University
+Surface Form: NYU
+Types: 
+
+File: Graphs.txt
+Entity: NYU Computer Science
+URI: http://dbpedia.org/resource/Computer_science
+Surface Form: Computer Science
+Types: 
+
+File: Graphs_Tutorial2.txt
+Entity: Problem Solving
+Tutorial 7:
+Priority Queue, Heaps, Maps, TreesIllustrate
+URI: http://dbpedia.org/resource/Priority_queue
+Surface Form: Priority Queue
+Types: 
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: Integer Set ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: the Java Collection Framework
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: {
+elements[hash(value
+URI: http://dbpedia.org/resource/Hash_function
+Surface Form: hash
+Types: 
+
+File: Hashmap.txt
+Entity: elements[hash(value
+URI: http://dbpedia.org/resource/Hash_function
+Surface Form: hash
+Types: 
+
+File: Hashmap.txt
+Entity: elements[hash(value
+URI: http://dbpedia.org/resource/Hash_function
+Surface Form: hash
+Types: 
+
+File: Hashmap.txt
+Entity: University of Washington
+URI: http://dbpedia.org/resource/Washington_(state)
+Surface Form: Washington
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Hashmap.txt
+Entity: Hash Codes
+Java’s
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: Unicode
+URI: http://dbpedia.org/resource/Unicode
+Surface Form: Unicode
+Types: 
+
+File: Hashmap.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: Unicode
+URI: http://dbpedia.org/resource/Unicode
+Surface Form: Unicode
+Types: 
+
+File: Hashmap.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: Java”.hashCode()Compression Functions
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: byte
+URI: http://dbpedia.org/resource/Byte
+Surface Form: byte
+Types: 
+
+File: Hashmap.txt
+Entity: 
+Derive
+URI: http://dbpedia.org/resource/Derive_(computer_algebra_system)
+Surface Form: Derive
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Hashmap.txt
+Entity: Use Java %
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: Quadratic Probing
+Linear Probing
+URI: http://dbpedia.org/resource/Quadratic_function
+Surface Form: Quadratic
+Types: 
+
+File: Hashmap.txt
+Entity: Quadratic Probing
+URI: http://dbpedia.org/resource/Quadratic
+Surface Form: Quadratic
+Types: 
+
+File: Hashmap.txt
+Entity: the Java Collection Framework
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: • An ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap.txt
+Entity: M. H.
+Goldwasser
+URI: http://dbpedia.org/resource/Shafi_Goldwasser
+Surface Form: Goldwasser
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q901,Wikidata:Q5,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Person,DBpedia:Agent,DBpedia:Scientist
+
+File: Hashmap.txt
+Entity: Wiley
+URI: http://dbpedia.org/resource/Wiley-Blackwell
+Surface Form: Wiley
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Company,DBpedia:Agent,DBpedia:Publisher
+
+File: Hashmap.txt
+Entity: University of Washington
+URI: http://dbpedia.org/resource/Washington_(state)
+Surface Form: Washington
+Types: Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion
+
+File: Hashmap_Tutorial3.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap_Tutorial3.txt
+Entity: ADT
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap_Tutorial3.txt
+Entity: the "index"MAP ADT - ORDERED
+URI: http://dbpedia.org/resource/ADT_Inc.
+Surface Form: ADT
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Hashmap_Tutorial3.txt
+Entity: Java Data
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap_Tutorial3.txt
+Entity: 
+Hashtable
+URI: http://dbpedia.org/resource/Hash_table
+Surface Form: Hashtable
+Types: 
+
+File: Hashmap_Tutorial3.txt
+Entity: the Hash Function
+URI: http://dbpedia.org/resource/Hash_function
+Surface Form: Hash Function
+Types: 
+
+File: Hashmap_Tutorial3.txt
+Entity: partitionMost
+URI: http://dbpedia.org/resource/Partition_of_a_set
+Surface Form: partition
+Types: 
+
+File: Hashmap_Tutorial3.txt
+Entity: Recursion on Right
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Hashmap_Tutorial3.txt
+Entity: Quicksort
+URI: http://dbpedia.org/resource/Quicksort
+Surface Form: Quicksort
+Types: 
+
+File: Hashmap_Tutorial3.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Hashmap_Tutorial3.txt
+Entity: Timsort
+URI: http://dbpedia.org/resource/Timsort
+Surface Form: Timsort
+Types: 
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: Alexa
+URI: http://dbpedia.org/resource/Alexa_Internet
+Surface Form: Alexa
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Intelligent Agents.txt
+Entity: Siri
+URI: http://dbpedia.org/resource/Siri
+Surface Form: Siri
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Intelligent Agents.txt
+Entity: Alexa
+URI: http://dbpedia.org/resource/Alexa_Internet
+Surface Form: Alexa
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Intelligent Agents.txt
+Entity: Siri
+URI: http://dbpedia.org/resource/Siri
+Surface Form: Siri
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Intelligent Agents.txt
+Entity: Google
+LinkingDocumentsand
+URI: http://dbpedia.org/resource/Google
+Surface Form: Google
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Intelligent Agents.txt
+Entity: Alexa
+URI: http://dbpedia.org/resource/Alexa_Internet
+Surface Form: Alexa
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Intelligent Agents.txt
+Entity: Siri
+URI: http://dbpedia.org/resource/Siri
+Surface Form: Siri
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Intelligent Agents.txt
+Entity: IntelligentConversational
+Agents
+• Sonypromoted“ResidentEvil”with“RedQueen” Examples
+Designprocess
+• Disneypromoted“Zootopia”with“OfficerJudyHopps” Search-BasedBots
+URI: http://dbpedia.org/resource/Zootopia
+Surface Form: Zootopia
+Types: 
+
+File: Intelligent Agents.txt
+Entity: Gartner) Examples
+Designprocess
+Search-BasedBots
+URI: http://dbpedia.org/resource/Gartner
+Surface Form: Gartner
+Types: 
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: Montreal
+URI: http://dbpedia.org/resource/Montreal
+Surface Form: Montreal
+Types: Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City
+
+File: Intelligent Agents.txt
+Entity: Quebec
+URI: http://dbpedia.org/resource/Quebec
+Surface Form: Quebec
+Types: 
+
+File: Intelligent Agents.txt
+Entity: Canada
+URI: http://dbpedia.org/resource/Canada
+Surface Form: Canada
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Intelligent Agents.txt
+Entity: Loyola College
+URI: http://dbpedia.org/resource/Loyola_University_Maryland
+Surface Form: Loyola College
+Types: 
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: Search-BasedBots
+Parsing Pattern-MatchingBots
+Grounding-BasedBots
+URI: http://dbpedia.org/resource/Parsing
+Surface Form: Parsing
+Types: 
+
+File: Intelligent Agents.txt
+Entity: RT=RelationType
+URI: http://dbpedia.org/resource/Radiotelephone
+Surface Form: RT
+Types: 
+
+File: Intelligent Agents.txt
+Entity: tem
+URI: http://dbpedia.org/resource/Transmission_electron_microscopy
+Surface Form: tem
+Types: 
+
+File: Intelligent Agents.txt
+Entity: OPE
+URI: http://dbpedia.org/resource/Ope
+Surface Form: OPE
+Types: Wikidata:Q486972,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Settlement
+
+File: Intelligent Agents.txt
+Entity: Linked Open Data
+URI: http://dbpedia.org/resource/Linked_data
+Surface Form: Linked Open Data
+Types: 
+
+File: Intelligent Agents.txt
+Entity: LOD
+URI: http://dbpedia.org/resource/Length_overall
+Surface Form: LOD
+Types: 
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: Reading
+ImprovingEfficiencyandAccuracyinMultilingualEntityExtraction
+URI: http://dbpedia.org/resource/Reading_F.C.
+Surface Form: Reading
+Types: Wikidata:Q476028,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:SportsClub,DBpedia:Organisation,DBpedia:Agent,DBpedia:SoccerClub
+
+File: Intelligent Agents.txt
+Entity: Summary Reading
+URI: http://dbpedia.org/resource/Reading_F.C.
+Surface Form: Reading
+Types: Wikidata:Q476028,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:SportsClub,DBpedia:Organisation,DBpedia:Agent,DBpedia:SoccerClub
+
+File: Intelligent Agents.txt
+Entity: ec
+URI: http://dbpedia.org/resource/EC_(programming_language)
+Surface Form: ec
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents.txt
+Entity: Frey
+URI: http://dbpedia.org/resource/Richard_Karl_Hjalmar_Frey
+Surface Form: Frey
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia U.”
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia University
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia University
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: ML
+URI: http://dbpedia.org/resource/ML_(programming_language)
+Surface Form: ML
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Intelligent Agents_worksheet3.txt
+Entity: 2D
+URI: http://dbpedia.org/resource/2D_computer_graphics
+Surface Form: 2D
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Steve Jobs
+URI: http://dbpedia.org/resource/Steve_Jobs
+Surface Form: Steve Jobs
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: McGill
+URI: http://dbpedia.org/resource/McGill_University
+Surface Form: McGill
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: McGill
+URI: http://dbpedia.org/resource/McGill_University
+Surface Form: McGill
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: McGill
+URI: http://dbpedia.org/resource/McGill_University
+Surface Form: McGill
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: DBpedia
+URI: http://dbpedia.org/resource/DBpedia
+Surface Form: DBpedia
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Steve Jobs
+URI: http://dbpedia.org/resource/Steve_Jobs
+Surface Form: Steve Jobs
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: OpenCalais
+URI: http://dbpedia.org/resource/Calais_(Reuters_product)
+Surface Form: OpenCalais
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Wikipedia
+URI: http://dbpedia.org/resource/Wikipedia
+Surface Form: Wikipedia
+Types: Wikidata:Q386724,Schema:WebSite,Schema:CreativeWork,DBpedia:Work,DBpedia:Website
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: RDF
+URI: http://dbpedia.org/resource/Resource_Description_Framework
+Surface Form: RDF
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Paris Hilton
+URI: http://dbpedia.org/resource/Paris_Hilton
+Surface Form: Paris Hilton
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q5,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Agent,DBpedia:Person
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Hilton
+URI: http://dbpedia.org/resource/Hilton_Worldwide
+Surface Form: Hilton
+Types: Wikidata:Q4830453,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Organisation,DBpedia:Agent,DBpedia:Company
+
+File: Intelligent Agents_worksheet3.txt
+Entity: Paris
+URI: http://dbpedia.org/resource/Paris
+Surface Form: Paris
+Types: Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City
+
+File: Intelligent Agents_worksheet3.txt
+Entity: DBpedia
+URI: http://dbpedia.org/resource/DBpedia
+Surface Form: DBpedia
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Introduction.txt
+Entity: Represents the IS-A
+URI: http://dbpedia.org/resource/Is-a
+Surface Form: IS-A
+Types: 
+
+File: Introduction.txt
+Entity: Primate
+URI: http://dbpedia.org/resource/Primate
+Surface Form: Primate
+Types: 
+
+File: Introduction.txt
+Entity: Koko
+URI: http://dbpedia.org/resource/Koko_the_Clown
+Surface Form: Koko
+Types: 
+
+File: Introduction.txt
+Entity: Webster
+URI: http://dbpedia.org/resource/Martell_Webster
+Surface Form: Webster
+Types: Http://xmlns.com/foaf/0.1/Person,Wikidata:Q5,Wikidata:Q3665646,Wikidata:Q24229398,Wikidata:Q215627,DUL:NaturalPerson,DUL:Agent,Schema:Person,DBpedia:Person,DBpedia:Athlete,DBpedia:Agent,DBpedia:BasketballPlayer
+
+File: Introduction.txt
+Entity: Undergrad Grad
+Mystery Romance
+URI: http://dbpedia.org/resource/BM-21_Grad
+Surface Form: Grad
+Types: Wikidata:Q728,Schema:Product,DBpedia:Device,DBpedia:Weapon
+
+File: Introduction.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Introduction.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Introduction.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Introduction.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Introduction_Tutorial4.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Introduction_Tutorial4.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Primer
+Machine Learning for Intelligent Systems History
+URI: http://dbpedia.org/resource/Machine_learning
+Surface Form: Machine Learning
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Primer
+Machine Learning for Intelligent Systems History
+URI: http://dbpedia.org/resource/Artificial_intelligence
+Surface Form: Intelligent Systems
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: ML
+URI: http://dbpedia.org/resource/ML_(programming_language)
+Surface Form: ML
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: DL
+URI: http://dbpedia.org/resource/Deputy_lieutenant
+Surface Form: DL
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Overfitting
+URI: http://dbpedia.org/resource/Overfitting
+Surface Form: Overfitting
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Reading
+https://www.youtube.com/watch?v=5I3Ei69I40s
+URI: http://dbpedia.org/resource/Reading_F.C.
+Surface Form: Reading
+Types: Wikidata:Q476028,Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:SportsClub,DBpedia:Organisation,DBpedia:Agent,DBpedia:SoccerClub
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: EvaluationMetrics MachineLearning
+Evaluation
+ErrorAnalysis EvaluationMethodology
+Overfitting EvaluationMetrics
+ErrorAnalysis
+URI: http://dbpedia.org/resource/Overfitting
+Surface Form: Overfitting
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Underfitting Overfitting
+Underfitting
+Cross-Validation Cross-Validation
+URI: http://dbpedia.org/resource/Overfitting
+Surface Form: Overfitting
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: F-Measure EvaluationMetrics
+URI: http://dbpedia.org/resource/F1_score
+Surface Form: F-Measure
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: Classifications&
+Predictions
+Thisisaso-called(binary)confusionmatrix Introduction
+URI: http://dbpedia.org/resource/Binary_star
+Surface Form: binary
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: • NoisyData Classifications&
+Predictions
+• Overfitting Introduction
+URI: http://dbpedia.org/resource/Overfitting
+Surface Form: Overfitting
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: • Trainingerrorishigh Overfitting
+
+URI: http://dbpedia.org/resource/Overfitting
+Surface Form: Overfitting
+Types: 
+
+File: Machine Learning for Intelligent Systems.txt
+Entity: MG17,Chapters2,3,5](kNN
+URI: http://dbpedia.org/resource/K-nearest_neighbors_algorithm
+Surface Form: kNN
+Types: 
+
+File: Machine Learning for Intelligent Systems_worksheet2.txt
+Entity: ML Winter 2024
+URI: http://dbpedia.org/resource/ML_(programming_language)
+Surface Form: ML
+Types: Wikidata:Q9143,Wikidata:Q315,Schema:Language,DBpedia:Language,DBpedia:ProgrammingLanguage
+
+File: Machine Learning for Intelligent Systems_worksheet2.txt
+Entity: kNN
+URI: http://dbpedia.org/resource/K-nearest_neighbors_algorithm
+Surface Form: kNN
+Types: 
+
+File: Recursion.txt
+Entity: COMP
+URI: http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein
+Surface Form: COMP
+Types: Wikidata:Q7187,Wikidata:Q206229,DBpedia:Gene,DBpedia:Biomolecule,DBpedia:HumanGene
+
+File: Recursion.txt
+Entity: FIRST
+URI: http://dbpedia.org/resource/For_Inspiration_and_Recognition_of_Science_and_Technology
+Surface Form: FIRST
+Types: Wikidata:Q43229,Wikidata:Q24229398,DUL:SocialPerson,DUL:Agent,Schema:Organization,DBpedia:Agent,DBpedia:Organisation
+
+File: Recursion.txt
+Entity: FRONT OF HIM
+
+URI: http://dbpedia.org/resource/HIM_(Finnish_band)
+Surface Form: HIM
+Types: Wikidata:Q43229,Wikidata:Q24229398,Wikidata:Q215380,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:MusicGroup,DBpedia:Organisation,DBpedia:Group,DBpedia:Agent,DBpedia:Band
+
+File: Recursion.txt
+Entity: HIM
+URI: http://dbpedia.org/resource/HIM_(Finnish_band)
+Surface Form: HIM
+Types: Wikidata:Q43229,Wikidata:Q24229398,Wikidata:Q215380,DUL:SocialPerson,DUL:Agent,Schema:Organization,Schema:MusicGroup,DBpedia:Organisation,DBpedia:Group,DBpedia:Agent,DBpedia:Band
+
+File: Recursion.txt
+Entity: Recursion
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Recursion.txt
+Entity: Recursion
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Recursion.txt
+Entity: newWriteVertical(0)PITFALL
+URI: http://dbpedia.org/resource/Pitfall!
+Surface Form: PITFALL
+Types: Wikidata:Q7889,Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software,DBpedia:VideoGame
+
+File: Recursion.txt
+Entity: Recursion
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Recursion.txt
+Entity: Recursion
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Recursion.txt
+Entity: Recursion
+URI: http://dbpedia.org/resource/Recursion
+Surface Form: Recursion
+Types: 
+
+File: Recursion.txt
+Entity: Java
+URI: http://dbpedia.org/resource/Java
+Surface Form: Java
+Types: Wikidata:Q23442,Schema:Place,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Island
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: • Anestimated80–85%ofalldatastoredindatabasesarenaturallanguagetexts NLP
+URI: http://dbpedia.org/resource/Natural_language_processing
+Surface Form: NLP
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Tagging
+ChunkingandParsing
+NamedEntityRecognition
+EntityLinking
+Pipelines
+Applications
+Example:Scientific
+LiteratureMining
+MiningHealthDocuments
+Knowledge Worker Documents Summary
+
+URI: http://dbpedia.org/resource/Knowledge_worker
+Surface Form: Knowledge Worker
+Types: 
+
+File: Text Mining.txt
+Entity: Tumor Board KB Curation
+URI: http://dbpedia.org/resource/Tumor_board_review
+Surface Form: Tumor Board
+Types: 
+
+File: Text Mining.txt
+Entity: Tumor Board KB Curation
+URI: http://dbpedia.org/resource/Kilobyte
+Surface Form: KB
+Types: 
+
+File: Text Mining.txt
+Entity: exon-19
+URI: http://dbpedia.org/resource/Exon
+Surface Form: exon
+Types: 
+
+File: Text Mining.txt
+Entity: EGFR
+URI: http://dbpedia.org/resource/Epidermal_growth_factor_receptor
+Surface Form: EGFR
+Types: Wikidata:Q7187,Wikidata:Q206229,DBpedia:Gene,DBpedia:Biomolecule,DBpedia:HumanGene
+
+File: Text Mining.txt
+Entity: Gefitinib
+URI: http://dbpedia.org/resource/Gefitinib
+Surface Form: Gefitinib
+Types: Wikidata:Q8386,DUL:ChemicalObject,DBpedia:ChemicalSubstance,DBpedia:Drug
+
+File: Text Mining.txt
+Entity: SMAD3
+URI: http://dbpedia.org/resource/Mothers_against_decapentaplegic_homolog_3
+Surface Form: SMAD3
+Types: Wikidata:Q7187,Wikidata:Q206229,DBpedia:Gene,DBpedia:Biomolecule,DBpedia:HumanGene
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Tagging
+ChunkingandParsing
+NamedEntityRecognition
+EntityLinking
+Pipelines
+Applications
+Knowledge Worker NLP Pipeline Documents
+Example:Scientific
+LiteratureMining
+MiningHealthDocuments
+Summary
+
+URI: http://dbpedia.org/resource/Knowledge_worker
+Surface Form: Knowledge Worker
+Types: 
+
+File: Text Mining.txt
+Entity: Tagging
+ChunkingandParsing
+NamedEntityRecognition
+EntityLinking
+Pipelines
+Applications
+Knowledge Worker NLP Pipeline Documents
+Example:Scientific
+LiteratureMining
+MiningHealthDocuments
+Summary
+
+URI: http://dbpedia.org/resource/Natural_language_processing
+Surface Form: NLP
+Types: 
+
+File: Text Mining.txt
+Entity: XML
+URI: http://dbpedia.org/resource/XML
+Surface Form: XML
+Types: 
+
+File: Text Mining.txt
+Entity: PDF,
+URI: http://dbpedia.org/resource/PDF
+Surface Form: PDF
+Types: 
+
+File: Text Mining.txt
+Entity: Hre eM
+URI: http://dbpedia.org/resource/H're_people
+Surface Form: Hre
+Types: Wikidata:Q41710,DBpedia:EthnicGroup
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+NLPLibraries:
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: UK DevelopmentFrameworks
+URI: http://dbpedia.org/resource/United_Kingdom
+Surface Form: UK
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Text Mining.txt
+Entity: LGPL
+URI: http://dbpedia.org/resource/GNU_Lesser_General_Public_License
+Surface Form: LGPL
+Types: 
+
+File: Text Mining.txt
+Entity: UIMA
+URI: http://dbpedia.org/resource/UIMA
+Surface Form: UIMA
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Text Mining.txt
+Entity: TensorFlow
+URI: http://dbpedia.org/resource/TensorFlow
+Surface Form: TensorFlow
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Text Mining.txt
+Entity: PyTorch
+URI: http://dbpedia.org/resource/PyTorch
+Surface Form: PyTorch
+Types: Wikidata:Q7397,Wikidata:Q386724,Schema:CreativeWork,DBpedia:Work,DBpedia:Software
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: ExampleforadetectedPerson LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: foundbasedonitsPOStagandan ( Morphology
+Part-of-Speech(POS
+URI: http://dbpedia.org/resource/Part_of_speech
+Surface Form: POS
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: RenéWitte
+Tokenization
+Introduction
+TextissplitintobasicunitscalledTokens:
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+•
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Tokenization
+Introduction
+TextMininginScience
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Mexico
+URI: http://dbpedia.org/resource/Mexico
+Surface Form: Mexico
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Applications
+Example:Scientific
+Lemmatization reducewordstotheirlemma LiteratureMining
+MiningHealthDocuments
+Maindifference
+URI: http://dbpedia.org/resource/Lemmatisation
+Surface Form: Lemmatization
+Types: 
+
+File: Text Mining.txt
+Entity: thePorterstemmer LanguageModels
+Tokenization
+• Advantages: simple&fast SentenceSplitting
+Morphology
+• Disadvantages
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: RenéWitte
+Lemmatization
+Introduction
+Lemmatizationistheprocessofderivingthebaseform
+URI: http://dbpedia.org/resource/Lemmatisation
+Surface Form: Lemmatization
+Types: 
+
+File: Text Mining.txt
+Entity: • identifiesthelemma(rootform),whichisanactualword Tokenization
+•
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+Adjective describesthepropertiesofnounsorpronouns SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+Adjective describesthepropertiesofnounsorpronouns SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Adjective
+Surface Form: Adjective
+Types: 
+
+File: Text Mining.txt
+Entity: Pronoun wordthatcantaketheplaceofanoun Pipelines
+URI: http://dbpedia.org/resource/Pronoun
+Surface Form: Pronoun
+Types: 
+
+File: Text Mining.txt
+Entity: U.K.
+URI: http://dbpedia.org/resource/United_Kingdom
+Surface Form: U.K.
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Chunking findingsyntacticconstituentslikeNounPhrases(NPs)or
+URI: http://dbpedia.org/resource/Chongqing
+Surface Form: Chunking
+Types: Wikidata:Q486972,Wikidata:Q3957,Schema:Place,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Town
+
+File: Text Mining.txt
+Entity: VerbGroups(VGs)withinasentence NLP
+URI: http://dbpedia.org/resource/Natural_language_processing
+Surface Form: NLP
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: NP
+URI: http://dbpedia.org/resource/NP_(complexity)
+Surface Form: NP
+Types: 
+
+File: Text Mining.txt
+Entity: U.K.
+URI: http://dbpedia.org/resource/United_Kingdom
+Surface Form: U.K.
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+Constituent
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: U.K.
+URI: http://dbpedia.org/resource/United_Kingdom
+Surface Form: U.K.
+Types: Wikidata:Q6256,Schema:Place,Schema:Country,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Country
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+• Theory
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: EntityLinker Tokenization
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Roman Catholic Church
+URI: http://dbpedia.org/resource/Catholic_Church
+Surface Form: Roman Catholic Church
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: PUNCT
+URI: http://dbpedia.org/resource/Punct_(magazine)
+Surface Form: PUNCT
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Organism Escherichiacoli Summary
+Mutation Q15K/W37R
+URI: http://dbpedia.org/resource/Organism
+Surface Form: Organism
+Types: 
+
+File: Text Mining.txt
+Entity: Organism Escherichiacoli Summary
+Mutation Q15K/W37R
+URI: http://dbpedia.org/resource/Mutation
+Surface Form: Mutation
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: Aspergillus
+URI: http://dbpedia.org/resource/Aspergillus
+Surface Form: Aspergillus
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+• Manybusinessesarestillnotawareofthepotentialsinanalyzingtheir SentenceSplitting
+Morphology
+documents(automation
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+• Manybusinessesarestillnotawareofthepotentialsinanalyzingtheir SentenceSplitting
+Morphology
+documents(automation
+URI: http://dbpedia.org/resource/Automation
+Surface Form: automation
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+Morphology
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining.txt
+Entity: LanguageModels
+Tokenization
+SentenceSplitting
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: NLP & Text Mining
+URI: http://dbpedia.org/resource/Natural_language_processing
+Surface Form: NLP
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: NLP & Text Mining
+URI: http://dbpedia.org/resource/Text_mining
+Surface Form: Text Mining
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: the Europe Media Monitor
+URI: http://dbpedia.org/resource/Europe
+Surface Form: Europe
+Types: Schema:Place,Schema:Continent,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:Continent
+
+File: Text Mining_worksheet3.txt
+Entity: General Architecture
+URI: http://dbpedia.org/resource/General_officer
+Surface Form: General
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: GATE
+URI: http://dbpedia.org/resource/Graduate_Aptitude_Test_in_Engineering
+Surface Form: GATE
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: Nearly-New Information Extraction System
+URI: http://dbpedia.org/resource/Information_extraction
+Surface Form: Information Extraction
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: Tokenization
+URI: http://dbpedia.org/resource/Lexical_analysis
+Surface Form: Tokenization
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: Concordia
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: GATE
+URI: http://dbpedia.org/resource/Graduate_Aptitude_Test_in_Engineering
+Surface Form: GATE
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: NER
+URI: http://dbpedia.org/resource/Nucleotide_excision_repair
+Surface Form: NER
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: Concordia University
+URI: http://dbpedia.org/resource/Concordia_University
+Surface Form: Concordia University
+Types: 
+
+File: Text Mining_worksheet3.txt
+Entity: University of Waterloo
+URI: http://dbpedia.org/resource/Battle_of_Waterloo
+Surface Form: Waterloo
+Types: Wikidata:Q1656682,DUL:Event,Schema:Event,DBpedia:SocietalEvent,DBpedia:Event,DBpedia:MilitaryConflict
+
+File: Trees_Tutorial5.txt
+Entity: AVL
+URI: http://dbpedia.org/resource/Automatic_vehicle_location
+Surface Form: AVL
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity: AVL
+URI: http://dbpedia.org/resource/Automatic_vehicle_location
+Surface Form: AVL
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity: Quick Sort
+URI: http://dbpedia.org/resource/Quicksort
+Surface Form: Quick Sort
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity: BST
+URI: http://dbpedia.org/resource/British_Summer_Time
+Surface Form: BST
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity: BST’s
+URI: http://dbpedia.org/resource/British_Summer_Time
+Surface Form: BST
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity:  Build an AVL
+URI: http://dbpedia.org/resource/Automatic_vehicle_location
+Surface Form: AVL
+Types: 
+
+File: Trees_Tutorial5.txt
+Entity: 28Problem Solving -
+Question 6
+ Using the AVL
+URI: http://dbpedia.org/resource/Automatic_vehicle_location
+Surface Form: AVL
+Types: 
+

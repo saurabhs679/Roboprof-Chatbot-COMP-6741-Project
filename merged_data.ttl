@@ -18,6 +18,106 @@ ex:Topic a rdfs:Class ;
 ex:University a rdfs:Class ;
     rdfs:label "University" .
 
+ex:40213434 a ex:Student ;
+    ex:IDNumber "40213434" ;
+    ex:competentIn "k-Means Clustering" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "wilson.natalie@gmail.com" ;
+    ex:firstName "Natalie" ;
+    ex:grade "B+" ;
+    ex:lastName "Wilson" .
+
+ex:40214342 a ex:Student ;
+    ex:IDNumber "40214342" ;
+    ex:competentIn "Text mining" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "Gagan.singh234@gmail.com" ;
+    ex:firstName "Gagan" ;
+    ex:grade "A" ;
+    ex:lastName "Singh" .
+
+ex:40222344 a ex:Student ;
+    ex:IDNumber "40222344" ;
+    ex:competentIn "Text mining" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "juan.g@yahoo.com" ;
+    ex:firstName "Juan" ;
+    ex:grade "B+" ;
+    ex:lastName "Gonzalez" .
+
+ex:40224532 a ex:Student ;
+    ex:IDNumber "40224532" ;
+    ex:competentIn "Content-based Recommendations" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "stevens@gmail.com" ;
+    ex:firstName "Steven" ;
+    ex:grade "A-" ;
+    ex:lastName "Schipero" .
+
+ex:40225324 a ex:Student ;
+    ex:IDNumber "40225324" ;
+    ex:competentIn "Binary Trees" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "Yash.c@gmail.com" ;
+    ex:firstName "Yash" ;
+    ex:grade "A+" ;
+    ex:lastName "Changrani" .
+
+ex:40225343 a ex:Student ;
+    ex:IDNumber "40225343" ;
+    ex:competentIn "Collaborative Filtering" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "R.yadav@gmail.com" ;
+    ex:firstName "Rahul" ;
+    ex:grade "B-" ;
+    ex:lastName "Yadav" .
+
+ex:40225634 a ex:Student ;
+    ex:IDNumber "40225634" ;
+    ex:competentIn "Natural Language Processing (NLP)" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "cullen.ed@gmail.com" ;
+    ex:firstName "Edward" ;
+    ex:grade "B-" ;
+    ex:lastName "Cullen" .
+
+ex:40225643 a ex:Student ;
+    ex:IDNumber "40225643" ;
+    ex:competentIn "Pattern-Matching Bots" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "mayer.john@gmail.com" ;
+    ex:firstName "John" ;
+    ex:grade "A" ;
+    ex:lastName "Mayer" .
+
+ex:40226284 a ex:Student ;
+    ex:IDNumber "40226284" ;
+    ex:competentIn "Depth First Search (DFS)" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "A.signh@gmail.com" ;
+    ex:firstName "Arshdeep" ;
+    ex:grade "A-" ;
+    ex:lastName "Singh" .
+
+ex:40226289 a ex:Student ;
+    ex:IDNumber "40226289" ;
+    ex:competentIn "Algorithm efficiency" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "prashant.tilekar@gmail.com" ;
+    ex:firstName "Prashant" ;
+    ex:grade "B" ;
+    ex:lastName "Tilekar" .
+
 ex:40226298 a ex:Student ;
     ex:IDNumber "40226298" ;
     ex:competentIn "Hash table" ;
@@ -28,14 +128,47 @@ ex:40226298 a ex:Student ;
     ex:grade "B" ;
     ex:lastName "Sharma" .
 
+ex:40226334 a ex:Student ;
+    ex:IDNumber "40226334" ;
+    ex:competentIn "Graphs" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "tylrishabh@gmail.com" ;
+    ex:firstName "Rishabh" ;
+    ex:grade "B+" ;
+    ex:lastName "Tayal" .
+
+ex:40226345 a ex:Student ;
+    ex:IDNumber "40226345" ;
+    ex:competentIn "Binary Trees" ;
+    ex:completedCourse "COMP 6481" ;
+    ex:course ex:COMP_6481 ;
+    ex:email "Karan.singla@gmail.com" ;
+    ex:firstName "Karan" ;
+    ex:grade "A" ;
+    ex:lastName "Singla" .
+
+ex:40226725 a ex:Student ;
+    ex:IDNumber "40226725" ;
+    ex:competentIn "The Resource Description Framework (RDF)" ;
+    ex:completedCourse "COMP 6741" ;
+    ex:course ex:COMP_6741 ;
+    ex:email "nico.jun@gmail.com" ;
+    ex:firstName "Nicolas" ;
+    ex:grade "B" ;
+    ex:lastName "Jun" .
+
 ex:40233434 a ex:Student ;
     ex:IDNumber "40233434" ;
     ex:competentIn "Run Time Errors" ;
-    ex:completedCourse "COMP 6481" ;
-    ex:course ex:COMP_6481 ;
+    ex:completedCourse "COMP 6481",
+        "COMP 6741" ;
+    ex:course ex:COMP_6481,
+        ex:COMP_6741 ;
     ex:email "anubhavmahajan852852@gmail.com" ;
     ex:firstName "Anubhav" ;
-    ex:grade "A" ;
+    ex:grade "A",
+        "A+" ;
     ex:lastName "Mahajan" .
 
 ex:Algorithm_efficiency a ex:Topic ;
@@ -44,6 +177,20 @@ ex:Algorithm_efficiency a ex:Topic ;
     ex:provenance "Course outline" ;
     ex:topic_in_course ex:COMP_6481 ;
     ex:topic_in_lecture ex:Algorithm_analysis .
+
+ex:Binary_Trees a ex:Topic ;
+    ex:TopicName "Binary Trees" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Binary_tree> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Trees .
+
+ex:Collaborative_Filtering a ex:Topic ;
+    ex:TopicName "Collaborative Filtering" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Collaborative_filtering> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Recommender_Systems .
 
 ex:Concordia_University a ex:University ;
     ex:UniversityLink <https://dbpedia.org/page/Concordia_University> ;
@@ -71,10 +218,26 @@ ex:Credits a rdf:Property ;
     rdfs:domain ex:Course ;
     rdfs:range rdfs:Literal .
 
+ex:Depth_First_Search_\(DFS\) a ex:Topic ;
+    ex:TopicName "Depth First Search (DFS)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Depth-first_search> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Graphs .
+
 ex:Description a rdf:Property ;
     rdfs:label "course description" ;
     rdfs:domain ex:Course ;
     rdfs:range rdfs:Literal .
+
+ex:HashMap a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/HashMap/maphash.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_9.pdf
+Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
+    ex:lectureLink <https://dbpedia.org/page/Hash_table> ;
+    ex:lectureName "HashMap" ;
+    ex:lectureNumber "6" ;
+    ex:lectures_in_course ex:COMP_6481 .
 
 ex:Hash_table a ex:Topic ;
     ex:TopicName "Hash table" ;
@@ -88,27 +251,16 @@ ex:IDNumber a rdf:Property ;
     rdfs:domain ex:Student ;
     rdfs:range rdfs:Literal .
 
-ex:Introduction a ex:Lecture ;
-    ex:Content """Slides: chap7-Inheritance.pdf
-Worksheets: 
-Readings: """ ;
-    ex:lectureLink <> ;
-    ex:lectureName "Introduction" ;
-    ex:lectureNumber "1" ;
-    ex:lectures_in_course ex:COMP_6481 .
-
-ex:Introduction_to_Intelligent_Systems a ex:Lecture ;
-    ex:Content """Slides: slides01.pdf
-Worksheets: worksheet01.pdf
-Readings: Introduction to Artificial Intelligence, https://plato.stanford.edu/entries/artificial-intelligence/, Eliza, https://en.wikipedia.org/wiki/ELIZA""" ;
-    ex:lectureLink <https://dbpedia.org/page/Artificial_intelligence> ;
-    ex:lectureName "Introduction to Intelligent Systems" ;
-    ex:lectureNumber "1" ;
-    ex:lectures_in_course ex:COMP_6741 .
+ex:Inheritance a ex:Topic ;
+    ex:TopicName "Inheritance" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Object-oriented_programming> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Introduction .
 
 ex:Introduction_to_Knowledge_Graphs_\(RDF\) a ex:Lecture ;
-    ex:Content """Slides: slides02.pdf
-Worksheets: worksheet02.pdf
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides02.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet02.pdf
 Readings: [Yu14, Chapters 1, 2] (Introduction, RDF)""" ;
     ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/897466408> ;
     ex:lectureName "Introduction to Knowledge Graphs (RDF)" ;
@@ -116,8 +268,8 @@ Readings: [Yu14, Chapters 1, 2] (Introduction, RDF)""" ;
     ex:lectures_in_course ex:COMP_6741 .
 
 ex:Knowledge_Base_Queries_\(SPARQL\)_and_Linked_Open_Data_\(LOD\) a ex:Lecture ;
-    ex:Content """Slides: slides04.pdf
-Worksheets: worksheet04.pdf
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides04.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet04.pdf
 Readings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)""" ;
     ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/853679890> ;
     ex:lectureName "Knowledge Base Queries (SPARQL) and Linked Open Data (LOD)" ;
@@ -125,8 +277,8 @@ Readings: [Yu14, Chapter 6] (SPARQL),   [Yu14, Chapter 9] (Linked Open Data)""" 
     ex:lectures_in_course ex:COMP_6741 .
 
 <http://example.org/Knowledge_Graphs:_Vocabularies_&_Ontologies_(RDFS,_OWL)> a ex:Lecture ;
-    ex:Content """Slides: slides03.pdf
-Worksheets: worksheet03.pdf
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides03.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet03.pdf
 Readings: [Yu14, Chapter 4] (RDFS),  [Yu14, Chapter 7] (FOAF)""" ;
     ex:lectureLink <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> ;
     ex:lectureName "Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)" ;
@@ -138,49 +290,61 @@ ex:Knowledge_graphs a ex:Topic ;
     ex:dbpediaLink <https://dbpedia.org/resource/Knowledge_graph> ;
     ex:provenance "Course outline" ;
     ex:topic_in_course ex:COMP_6741 ;
-    ex:topic_in_lecture ex:Intelligent_Systems_Introduction .
+    ex:topic_in_lecture ex:Introduction_to_Intelligent_Systems .
+
+ex:Natural_Language_Processing_\(NLP\) a ex:Topic ;
+    ex:TopicName "Natural Language Processing (NLP)" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Natural_language_processing> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Text_Mining .
 
 ex:Outline a rdf:Property ;
     rdfs:label "course outline" ;
     rdfs:domain ex:Course ;
     rdfs:range rdfs:URIRef .
 
+ex:Pattern-Matching_Bots a ex:Topic ;
+    ex:TopicName "Pattern-Matching Bots" ;
+    ex:dbpediaLink <https://www.wikidata.org/wiki/Q1503724> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Intelligent_Agents .
+
 <http://example.org/Personalization_&_Recommender_Systems> a ex:Lecture ;
-    ex:Content """Slides: slides05.pdf
-Worksheets: worksheet05.pdf
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides05.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet05.pdf
 Readings:  [Ala09, Chapters 2, 3] (Recommendations), [MRS08, Chapter 8] (Evaluation)""" ;
     ex:lectureLink <https://concordiauniversity.on.worldcat.org/oclc/314121652> ;
     ex:lectureName "Personalization & Recommender Systems" ;
     ex:lectureNumber "5" ;
     ex:lectures_in_course ex:COMP_6741 .
 
-ex:Recursion a ex:Lecture ;
-    ex:Content """Slides: Recursion.pdf
-Worksheets: 
-Readings: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/""" ;
-    ex:lectureLink <https://www.youtube.com/watch?v=FyHloXKnPWc> ;
-    ex:lectureName "Recursion" ;
-    ex:lectureNumber "3" ;
-    ex:lectures_in_course ex:COMP_6481 .
-
 ex:Run_Time_Errors a ex:Topic ;
     ex:TopicName "Run Time Errors" ;
     ex:dbpediaLink <https://www.wikidata.org/wiki/Q15825362> ;
     ex:provenance "Course outline" ;
     ex:topic_in_course ex:COMP_6481 ;
-    ex:topic_in_lecture ex:Exceptions .
+    ex:topic_in_lecture ex:Exception_Handelling .
 
 ex:Subject a rdf:Property ;
     rdfs:label "course subject" ;
     rdfs:domain ex:Course ;
     rdfs:range rdfs:Literal .
 
+ex:Tail_Recursion a ex:Topic ;
+    ex:TopicName "Tail Recursion" ;
+    ex:dbpediaLink <https://dbpedia.org/page/Tail_call> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6481 ;
+    ex:topic_in_lecture ex:Recursion .
+
 ex:Text_mining a ex:Topic ;
     ex:TopicName "Text mining" ;
     ex:dbpediaLink <https://www.wikidata.org/wiki/Q676880> ;
     ex:provenance "Course outline" ;
     ex:topic_in_course ex:COMP_6741 ;
-    ex:topic_in_lecture ex:Intelligent_Systems_Introduction .
+    ex:topic_in_lecture ex:Introduction_to_Intelligent_Systems .
 
 ex:The_Resource_Description_Framework_\(RDF\) a ex:Topic ;
     ex:TopicName "The Resource Description Framework (RDF)" ;
@@ -244,6 +408,13 @@ ex:grade a rdf:Property ;
     rdfs:domain ex:Student ;
     rdfs:range rdfs:Literal .
 
+ex:k-Means_Clustering a ex:Topic ;
+    ex:TopicName "k-Means Clustering" ;
+    ex:dbpediaLink <https://dbpedia.org/page/K-means_clustering> ;
+    ex:provenance "Course outline" ;
+    ex:topic_in_course ex:COMP_6741 ;
+    ex:topic_in_lecture ex:Machine_Learning_for_Intelligent_Systems .
+
 ex:lastName a rdf:Property ;
     rdfs:label "last name" ;
     rdfs:domain ex:Student ;
@@ -290,13 +461,94 @@ ex:topic_in_lecture a rdf:ObjectProperty ;
     rdfs:range ex:Topic .
 
 ex:Algorithm_analysis a ex:Lecture ;
-    ex:Content """Slides: aa.pdf
-Worksheets: 
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\aa.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_2.pdf
 Readings: Textbook Data Structures and Algorithms in Java, 6th edition, by M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Wiley, 2014""" ;
     ex:lectureLink <https://www.geeksforgeeks.org/design-and-analysis-of-algorithms/> ;
     ex:lectureName "Algorithm analysis" ;
     ex:lectureNumber "2" ;
     ex:lectures_in_course ex:COMP_6481 .
+
+ex:Exception_Handelling a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Exception_Handelling/chap9-Exceptions-NA.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_3.pdf
+Readings: https://stackify.com/specify-handle-exceptions-java/#:~:text=Java%20provides%20two%20different%20options,easier%20cleanup%20process%20for%20resources.""" ;
+    ex:lectureLink <https://www.wikidata.org/wiki/Q471748> ;
+    ex:lectureName "Exception Handelling" ;
+    ex:lectureNumber "4" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Graphs a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Graphs.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_7.pdf
+Readings: https://www.baeldung.com/java-graphs""" ;
+    ex:lectureLink <https://dbpedia.org/page/Graph_(abstract_data_type)> ;
+    ex:lectureName "Graphs" ;
+    ex:lectureNumber "7" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Intelligent_Agents a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides07.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet07.pdf
+Readings: [LHH19, Chapter 12] (Dialog engines)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Intelligent_agent> ;
+    ex:lectureName "Intelligent Agents" ;
+    ex:lectureNumber "7" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Introduction a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\chap7-Inheritance.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_1.pdf
+Readings: """ ;
+    ex:lectureLink <> ;
+    ex:lectureName "Introduction" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Machine_Learning_for_Intelligent_Systems a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides06.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet06.pdf
+Readings: [MG17, Chapters 2, 3, 5] (kNN, k-Means, Evaluation)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Machine_learning> ;
+    ex:lectureName "Machine Learning for Intelligent Systems" ;
+    ex:lectureNumber "6" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Recursion a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6481\\Recursion.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/COMP6481_TUT_05_Reg.pdf
+Readings: https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/""" ;
+    ex:lectureLink <https://www.youtube.com/watch?v=FyHloXKnPWc> ;
+    ex:lectureName "Recursion" ;
+    ex:lectureNumber "3" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Text_Mining a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/COMP 6741/Lecture/slides08.pdf
+Worksheets: /Users/saurabh/Documents/Courses/COMP 6741/Worksheets/worksheet08.pdf
+Readings: [LHH19, Chapter 11] (Information extraction)""" ;
+    ex:lectureLink <https://dbpedia.org/page/Text_mining> ;
+    ex:lectureName "Text Mining" ;
+    ex:lectureNumber "8" ;
+    ex:lectures_in_course ex:COMP_6741 .
+
+ex:Trees a ex:Lecture ;
+    ex:Content """Slides: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Lectures Slides/Trees/trees.pdf
+Worksheets: /Users/saurabh/Documents/Courses/All terms/Fall 23/COMP 6481-PPS/Tutorial_10.pdf
+Readings: https://javachallengers.com/tree-data-structure-with-java/#:~:text=The%20tree%20data%20structure%20is,nodes%20is%20called%20a%20branch.""" ;
+    ex:lectureLink <https://dbpedia.org/page/Tree_(data_structure)> ;
+    ex:lectureName "Trees" ;
+    ex:lectureNumber "5" ;
+    ex:lectures_in_course ex:COMP_6481 .
+
+ex:Introduction_to_Intelligent_Systems a ex:Lecture ;
+    ex:Content """Slides: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\slides01.pdf
+Worksheets: C:\\Users\\anubh\\OneDrive\\Desktop\\COMP 6741\\worksheet01.pdf
+Readings: Introduction to Artificial Intelligence, https://plato.stanford.edu/entries/artificial-intelligence/, Eliza, https://en.wikipedia.org/wiki/ELIZA""" ;
+    ex:lectureLink <https://dbpedia.org/page/Artificial_intelligence> ;
+    ex:lectureName "Introduction to Intelligent Systems" ;
+    ex:lectureNumber "1" ;
+    ex:lectures_in_course ex:COMP_6741 .
 
 ex:COMP_6481 a ex:Course ;
     ex:CourseName "PPS" ;
